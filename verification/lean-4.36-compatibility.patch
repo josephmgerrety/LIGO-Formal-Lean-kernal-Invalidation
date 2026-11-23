@@ -1,0 +1,21 @@
+diff --git a/RequestProject/LIGO_specious_measures.lean b/RequestProject/LIGO_specious_measures.lean
+--- a/RequestProject/LIGO_specious_measures.lean
++++ b/RequestProject/LIGO_specious_measures.lean
+@@ -620,7 +620,7 @@ theorem ligo_chiP_primarySpin_threshold (sinMicro : Int → Nat)
+     exact maxN_of_lt hlt
+   intro h
+   have hn : chiPNum sinMicro { nrInjection with a1 := a } = chiPNum sinMicro nrInjection :=
+-    congrArg Prod.fst h
++    (Prod.mk.inj (show (_, _) = (_, _) from h)).1
+   rw [hnum1, hnum0] at hn
+   rw [hK1, hK2] at hn hlt
+   omega
+@@ -1025,7 +1025,7 @@ def weightStr : MeasStructure.{0} LigoKind addSig where
+ `Λ(r + r) = 4` while `Λ(r) + Λ(r) = 2`. -/
+ theorem ligo_likelihood_not_additive : ¬ PreservesOperation resStr weightStr gaussExponent :=
+   not_preservesOperation_of_noncommuting (A := resStr) (B := weightStr) (T := gaussExponent)
+-    AddOp.add (fun _ => ([1] : List Int)) (by decide)
++    AddOp.add (fun _ => ([1] : List Int)) (by change (4 : Int) ≠ 2; decide)
+ 
+ /-- Residual strain and evidence weight are different quantity kinds. -/
+ theorem residual_weight_not_sameKind : ¬ SameKind resStr weightStr := by
