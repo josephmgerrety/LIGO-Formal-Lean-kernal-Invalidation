@@ -10,7 +10,7 @@ Calibration and probability are based upon a condition of a reference of a previ
 Our theorem exposes that limitation. Every subsequent procedure using only indistinguishable information inherits this failure; establishing a gravitational wave requires evidence that separates alternatives.
 We did not invent the cancellation of shared error. It's built into Ligo's comparison operation itself. Our formalization exposes that limitation and proves its persistence.
 
-Any claim that LIGO’s model agreement alone establishes a bound on shared systematic error is mathematically unjustified. Further processing of those comparisons cannot supply the missing information. That failure belongs to the inference being claimed. 
+Any claim that LIGO’s model of agreement establishes a bound on shared systematic error is mathematically unjustified. Further processing of those comparisons cannot supply the missing information. That failure belongs to the inference being claimed. 
 Here taken on its own, we establish a rigorous impossibility result. An explicit pair of indistinguishable states rules out every uniformly correct recovery map for a target that distinguishes those states. The obstruction survives subsequent processing, we offer a resolution, a reference anchor that gives the precise, necessary and sufficient condition of resolution.
 
 ## Formally Proven Mathematical Invalidations
