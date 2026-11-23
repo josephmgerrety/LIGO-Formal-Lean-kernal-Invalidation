@@ -1,0 +1,82 @@
+[association]
+lake env con-leche --verified --jobs=4 <run>/association.ndjson
+exit 0
+stdout
+con-leche: accepted 1697 declarations (--verified)
+stderr
+con-leche: 1 inductive blocks modelled in-process: Lean.Syntax (30 generated records, checked by the fold as declarations and not counted as records of the file)
+
+lake env con-ron --verified --jobs=4 <run>/association.ndjson
+exit 0
+stdout
+con-ron: accepted 1697 declarations (--verified)
+stderr
+con-ron: 1 inductive blocks modelled in-process: Lean.Syntax (30 generated records, checked by the fold as declarations and not counted as records of the file)
+
+lake env leanchecker --from-export <run>/association.ndjson
+exit 0
+stdout
+Lean default kernel accepts the solution
+
+[compression]
+lake env con-leche --verified --jobs=4 <run>/compression.ndjson
+exit 0
+stdout
+con-leche: accepted 2010 declarations (--verified)
+stderr
+con-leche: 1 inductive blocks modelled in-process: Lean.Syntax (30 generated records, checked by the fold as declarations and not counted as records of the file)
+
+lake env con-ron --verified --jobs=4 <run>/compression.ndjson
+exit 0
+stdout
+con-ron: accepted 2010 declarations (--verified)
+stderr
+con-ron: 1 inductive blocks modelled in-process: Lean.Syntax (30 generated records, checked by the fold as declarations and not counted as records of the file)
+
+lake env leanchecker --from-export <run>/compression.ndjson
+exit 0
+stdout
+Lean default kernel accepts the solution
+
+[measurement]
+lake env con-leche --verified --jobs=4 <run>/measurement.ndjson
+exit 0
+stdout
+con-leche: accepted 2068 declarations (--verified)
+stderr
+con-leche: 1 inductive blocks modelled in-process: Lean.Syntax (30 generated records, checked by the fold as declarations and not counted as records of the file)
+con-leche: 2 declarations hoisted ahead of the pinned Nat operations they ground: Nat.mul._f, Nat.mul
+
+lake env con-ron --verified --jobs=4 <run>/measurement.ndjson
+exit 0
+stdout
+con-ron: accepted 2068 declarations (--verified)
+stderr
+con-ron: 1 inductive blocks modelled in-process: Lean.Syntax (30 generated records, checked by the fold as declarations and not counted as records of the file)
+con-ron: 2 declarations hoisted ahead of the pinned Nat operations they ground: Nat.mul._f, Nat.mul
+
+lake env leanchecker --from-export <run>/measurement.ndjson
+exit 0
+stdout
+Lean default kernel accepts the solution
+
+[examples]
+lake env con-leche --verified --jobs=4 <run>/examples.ndjson
+exit 0
+stdout
+con-leche: accepted 2270 declarations (--verified)
+stderr
+con-leche: 1 inductive blocks modelled in-process: Lean.Syntax (30 generated records, checked by the fold as declarations and not counted as records of the file)
+
+lake env con-ron --verified --jobs=4 <run>/examples.ndjson
+exit 0
+stdout
+con-ron: accepted 2270 declarations (--verified)
+stderr
+con-ron: 1 inductive blocks modelled in-process: Lean.Syntax (30 generated records, checked by the fold as declarations and not counted as records of the file)
+
+lake env leanchecker --from-export <run>/examples.ndjson
+exit 0
+stdout
+Lean default kernel accepts the solution
+

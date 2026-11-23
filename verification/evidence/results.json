@@ -1,0 +1,145 @@
+{
+  "lean": "Lean (version 4.36.0, x86_64-w64-windows-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "publicDeclarations": 899,
+  "publicTheorems": 562,
+  "declarationAxiomReports": 899,
+  "axiomDependencyCounts": {
+    "none": 525,
+    "Quot.sound, propext": 181,
+    "propext": 163,
+    "Classical.choice, Quot.sound, propext": 27,
+    "Quot.sound": 3
+  },
+  "exports": [
+    {
+      "group": "association",
+      "selectedRoots": 293,
+      "theoremRoots": 214,
+      "rootsPresent": 293,
+      "exportBytes": 5347690,
+      "exportSHA256": "59e6a5e17385ffe1e2fadb9f47d9b286060c5a6b322855704b18263b3e4ac98c",
+      "acceptance": {
+        "con-leche": {
+          "declarations": 1697,
+          "mode": "verified"
+        },
+        "con-ron": {
+          "declarations": 1697,
+          "mode": "verified"
+        },
+        "leanchecker": "Lean default kernel accepts the solution"
+      }
+    },
+    {
+      "group": "compression",
+      "selectedRoots": 288,
+      "theoremRoots": 173,
+      "rootsPresent": 288,
+      "exportBytes": 8216222,
+      "exportSHA256": "57d9c160ee7b5c210b55ce9f3f482c566250cbfbf2ddc3eb02a1958edb54ac81",
+      "acceptance": {
+        "con-leche": {
+          "declarations": 2010,
+          "mode": "verified"
+        },
+        "con-ron": {
+          "declarations": 2010,
+          "mode": "verified"
+        },
+        "leanchecker": "Lean default kernel accepts the solution"
+      }
+    },
+    {
+      "group": "measurement",
+      "selectedRoots": 261,
+      "theoremRoots": 147,
+      "rootsPresent": 261,
+      "exportBytes": 7168998,
+      "exportSHA256": "f466b94098782c8fba9809b8f2fc0c2e3d46adb433cadd4aa5e3ef03a1baef6e",
+      "acceptance": {
+        "con-leche": {
+          "declarations": 2068,
+          "mode": "verified"
+        },
+        "con-ron": {
+          "declarations": 2068,
+          "mode": "verified"
+        },
+        "leanchecker": "Lean default kernel accepts the solution"
+      }
+    },
+    {
+      "group": "examples",
+      "selectedRoots": 57,
+      "theoremRoots": 28,
+      "rootsPresent": 57,
+      "exportBytes": 7889910,
+      "exportSHA256": "0d4b8e74163ba839641185adaf71d2a7c8f060cd5600f7754372b5fe3aee3c6b",
+      "acceptance": {
+        "con-leche": {
+          "declarations": 2270,
+          "mode": "verified"
+        },
+        "con-ron": {
+          "declarations": 2270,
+          "mode": "verified"
+        },
+        "leanchecker": "Lean default kernel accepts the solution"
+      }
+    }
+  ],
+  "sourceSHA256": {
+    "PerfectAssociation.lean": "0a6558c8040b806869360f52c7a3c2ca2d32a9c1dab9d1c6ce7135f90fe3beac",
+    "PerfectAssociation/Algebra.lean": "71dd0ee199e036ee4151eefcd1f526a5ec1ccea1a749029aa81fd2bad4bc40d8",
+    "PerfectAssociation/EqualityBridge.lean": "cf6d9f52130909449622e43449471c39da3ac4324783fa247918841aee0638be",
+    "PerfectAssociation/LigoAnchors.lean": "313f0ce929c0aff95d4b1c86bfe18c1d8e389c3f5d803c1de3d0f6cb32bf6a02",
+    "PerfectAssociation/LigoCalibration.lean": "1e2b08f8cc3a0e0778b12041f1e85ab2290acac728ed0ddf4fbf972eb023dbc1",
+    "PerfectAssociation/LigoCompression.lean": "728cf3b1d9a05015c0c1f9e2430352ae409cc2d89e8240fb516f7762036f332e",
+    "PerfectAssociation/LigoCongruence.lean": "b3cc8745b40eebea2d5e42dd3e72ae2e3be079b6170be336d6a331e7c0427eda",
+    "PerfectAssociation/LigoNullSpace.lean": "63eb24f1c9aa832c650554044fbc42b6eda16fc974278b8434fe21f91e42b270",
+    "PerfectAssociation/Model.lean": "b83de7773fd58c50d6150cb92e2e7d4360c1e1df2e75f06e38daf6e8d872a527",
+    "PerfectAssociation/Statistics.lean": "d75f00e4225cd590e90e16a624d7561e79c694b1a485495184df2eb0f4a2511d",
+    "RequestProject/Equality.lean": "8086ca5c2ee1564b9024a4a283d7a68e792b43b2bf53e37f54a5e73158c5b60a",
+    "RequestProject/Examples.lean": "2267aee55618ab07a63140215c8eff72ae2b9f6abc10ad02611db8a88ae89e25",
+    "RequestProject/LIGO_published_ledger.lean": "fc1fb1a5cdf2eb20064c00b8c15425494e6508e53a018e6c463fab0810f56fc0",
+    "RequestProject/LIGO_specious_measures.lean": "e602b159e404281ccc9fe6cb731e057b91534ba1cf44541c3ecb31c97b2dfad5",
+    "RequestProject/Measurement.lean": "03050300b8b49e3d8440aed3fb94e7aa19a3d3218db3884f98193a54449b230b",
+    "VerificationAll.lean": "9986969fedd4c82b32ee870683114e5aec899b480eb1269f708df49884129093",
+    "VerificationCorrections.lean": "44231200674bbcb644928d803b9539f259178813f0078ded9fa0ddbf3a1af867",
+    "lake-manifest.json": "f0a7a402585e6315484419ccaf6cbca7c42af6225c397a0ab11044008e455bbf",
+    "lakefile.toml": "fb84b55e2566ea31a29e33e9f3367372789c2f52016463db3bdc3d289d4f20cf",
+    "lean-toolchain": "582a63f8f9c5128067b688778c1051cf1464c3ca9d57b9325025c051c29b774a",
+    "verification/Audit.lean": "029844362cba7f445b7374e25fa3ff528856681d2b927cb7068ff242f8c8e274",
+    "verification/declarations.tsv": "91d152ec793ffc5b9838d203ee0d386bec5d251a3a270d2669d8ff0e19ae437e",
+    "verification/roots/association.txt": "771fc1cb1db42c0673951603a3bdb3b80e24641662b7b03fdb92b1fa0db543c7",
+    "verification/roots/compression.txt": "a5d21475f99da0df3ef4653aa17946548edbf4233ee0d83f1c875206b57c4e5f",
+    "verification/roots/examples.txt": "e38ce7df19cecd2890ff2f64400b989eb26c74d42d6f695a26f987cc9312bf2e",
+    "verification/roots/measurement.txt": "fda37fbe62e8df206e280f5267b890c018fadd9cb38ad023a7da534929a4ef6c"
+  },
+  "binarySHA256": [
+    {
+      "tool": "lean",
+      "sha256": "f567cc855e5f8006f65076bc813711d581edbae54f1d1d138462e7114351b532"
+    },
+    {
+      "tool": "lake",
+      "sha256": "fd15d19aedd70272e2b405bd4f26ce936a9198b9748996dd0bcddcdde0423218"
+    },
+    {
+      "tool": "leanexport",
+      "sha256": "9e5cbe27d714a7c16dc3e35881a6a66c871ec4339c1bb15f640f8998aa0ddcc5"
+    },
+    {
+      "tool": "con-leche",
+      "sha256": "5dc6d10f2608e217464b92fbcf823dbff3fc82f80f2610654da5d0b5f58e8538"
+    },
+    {
+      "tool": "con-ron",
+      "sha256": "d9cfda21442da3b5151da9387cecf7ab64ff6a82cede8f6689a36ab92d204f74"
+    },
+    {
+      "tool": "leanchecker",
+      "sha256": "51f6b4098bb0d5b4a4de5c5f8501fac0c53d7236137b3f32d56b7e2717d05853"
+    }
+  ]
+}

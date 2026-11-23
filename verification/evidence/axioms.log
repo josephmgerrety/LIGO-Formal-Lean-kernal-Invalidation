@@ -1,0 +1,899 @@
+'PerfectAssociation.FitsPopulation' does not depend on any axioms
+'PerfectAssociation.no_population_additive_hom' does not depend on any axioms
+'PerfectAssociation.no_population_additive_iso' does not depend on any axioms
+'PerfectAssociation.model_generates_observations' does not depend on any axioms
+'PerfectAssociation.identical_observation_opposite_causation' does not depend on any axioms
+'PerfectAssociation.perfect_association_without_causation_hom_or_iso' does not depend on any axioms
+'PerfectAssociation.perfect_association_does_not_entail_causation' does not depend on any axioms
+'PerfectAssociation.perfect_association_does_not_entail_additive_hom' does not depend on any axioms
+'PerfectAssociation.perfect_association_does_not_entail_additive_iso' does not depend on any axioms
+'PerfectAssociation.no_uniform_observational_causal_rule' does not depend on any axioms
+'VerificationCorrections.common_error_variance_family_all' depends on axioms: [propext, Quot.sound]
+'VerificationCorrections.reconstruction_variance_unbounded' depends on axioms: [propext, Quot.sound]
+'VerificationCorrections.aggregateOffset' does not depend on any axioms
+'VerificationCorrections.aggregate_anchor_suffices' depends on axioms: [propext, Quot.sound]
+'AssociationAlgebra.Affine' does not depend on any axioms
+'AssociationAlgebra.AdditiveHom' does not depend on any axioms
+'AssociationAlgebra.AdditiveIso' does not depend on any axioms
+'AssociationAlgebra.AdditiveDefect' does not depend on any axioms
+'AssociationAlgebra.affine_hom_offset_zero' does not depend on any axioms
+'AssociationAlgebra.affine_defect' depends on axioms: [propext]
+'AssociationAlgebra.affine_hom_iff' depends on axioms: [propext]
+'AssociationAlgebra.affine_nonzero_offset_not_hom' does not depend on any axioms
+'AssociationAlgebra.affine_nonzero_offset_not_iso' does not depend on any axioms
+'AssociationAlgebra.seven_minus_four_not_hom' does not depend on any axioms
+'AssociationAlgebra.seven_minus_four_not_iso' does not depend on any axioms
+'AssociationAlgebra.shiftedAdd' does not depend on any axioms
+'AssociationAlgebra.affine_preserves_shifted_add' depends on axioms: [propext]
+'AssociationAlgebra.shifted_add_associative' depends on axioms: [propext]
+'AssociationAlgebra.shifted_add_identity' depends on axioms: [propext]
+'AssociationAlgebra.Magma' does not depend on any axioms
+'AssociationAlgebra.MagmaHom' does not depend on any axioms
+'AssociationAlgebra.MagmaIso' does not depend on any axioms
+'AssociationAlgebra.intAdd' does not depend on any axioms
+'AssociationAlgebra.intMul' does not depend on any axioms
+'AssociationAlgebra.MagmaIso.refl' does not depend on any axioms
+'AssociationAlgebra.MagmaIso.ofEq' does not depend on any axioms
+'AssociationAlgebra.MagmaIso.injective' does not depend on any axioms
+'AssociationAlgebra.int_add_not_isomorphic_int_mul' does not depend on any axioms
+'AssociationAlgebra.int_add_ne_int_mul' does not depend on any axioms
+'AssociationAlgebra.identity_observation_not_hom' does not depend on any axioms
+'AssociationAlgebra.CalibrationFits' does not depend on any axioms
+'AssociationAlgebra.no_hom_from_two_samples' does not depend on any axioms
+'AssociationAlgebra.no_hom_fits_supplied_observations' does not depend on any axioms
+'AssociationAlgebra.no_iso_fits_supplied_observations' does not depend on any axioms
+'AssociationAlgebra.identity_additive_iso' does not depend on any axioms
+'EqualityBridge.Same' does not depend on any axioms
+'EqualityBridge.eq_iff_same' does not depend on any axioms
+'EqualityBridge.eq_iff_indiscernible' does not depend on any axioms
+'EqualityBridge.Iso' does not depend on any axioms
+'EqualityBridge.Iso.refl' does not depend on any axioms
+'EqualityBridge.Iso.symm' does not depend on any axioms
+'EqualityBridge.Iso.injective' does not depend on any axioms
+'EqualityBridge.Iso.surjective' does not depend on any axioms
+'EqualityBridge.isoOfEq' does not depend on any axioms
+'EqualityBridge.transport' does not depend on any axioms
+'EqualityBridge.transport_refl' does not depend on any axioms
+'EqualityBridge.transport_trans' does not depend on any axioms
+'EqualityBridge.transport_symm' does not depend on any axioms
+'EqualityBridge.transport_natural' does not depend on any axioms
+'EqualityBridge.eq_iff_forall_iso' does not depend on any axioms
+'EqualityBridge.constantInfo' does not depend on any axioms
+'EqualityBridge.selectedCarrierIso' does not depend on any axioms
+'EqualityBridge.distinct_indices_selected_iso' does not depend on any axioms
+'EqualityBridge.selected_iso_does_not_entail_equality' does not depend on any axioms
+'LigoAnchors.compare' does not depend on any axioms
+'LigoAnchors.compare_blind' depends on axioms: [propext]
+'LigoAnchors.compare_cannot_see_common_mode' does not depend on any axioms
+'LigoAnchors.pointwise_blind' depends on axioms: [propext]
+'LigoAnchors.any_comparison_statistic_blind' depends on axioms: [propext]
+'LigoAnchors.logAmp' does not depend on any axioms
+'LigoAnchors.calibration_distance_fibre' depends on axioms: [propext]
+'LigoAnchors.psi15' does not depend on any axioms
+'LigoAnchors.psi15_fibre' depends on axioms: [propext]
+'LigoAnchors.psi15_fibre_all_frequencies' depends on axioms: [propext]
+'LigoAnchors.waveform_cannot_classify_spin' does not depend on any axioms
+'LigoAnchors.likelihood_fibre' does not depend on any axioms
+'LigoAnchors.mixVar4' does not depend on any axioms
+'LigoAnchors.mixVar4_blind' depends on axioms: [propext]
+'LigoAnchors.tableI_a1_mixture' does not depend on any axioms
+'LigoAnchors.etaNum' does not depend on any axioms
+'LigoAnchors.eta_swap' depends on axioms: [propext]
+'LigoAnchors.gw150914_fold' does not depend on any axioms
+'LigoAnchors.fold_identity_grid' does not depend on any axioms
+'LigoAnchors.lik' does not depend on any axioms
+'LigoAnchors.priorPaper' does not depend on any axioms
+'LigoAnchors.priorOpen' does not depend on any axioms
+'LigoAnchors.massBeta' does not depend on any axioms
+'LigoAnchors.massTotal' does not depend on any axioms
+'LigoAnchors.paper_prior_certainty' does not depend on any axioms
+'LigoAnchors.open_prior_half' does not depend on any axioms
+'LigoAnchors.same_data_different_beta' does not depend on any axioms
+'LigoAnchors.post' does not depend on any axioms
+'LigoAnchors.fibre_prior_echo' depends on axioms: [propext]
+'LigoAnchors.err' does not depend on any axioms
+'LigoAnchors.reference_shift_invisible' depends on axioms: [propext]
+'LigoAnchors.anchor_identifies' depends on axioms: [propext]
+'LigoCalibration.Faithful' does not depend on any axioms
+'LigoCalibration.Substitutes' does not depend on any axioms
+'LigoCalibration.Chains' does not depend on any axioms
+'LigoCalibration.faithful_substitutes' does not depend on any axioms
+'LigoCalibration.substitutes_faithful' does not depend on any axioms
+'LigoCalibration.faithful_chains' does not depend on any axioms
+'LigoCalibration.chains_faithful' does not depend on any axioms
+'LigoCalibration.faithful_valid_for_all' does not depend on any axioms
+'LigoCalibration.faithful_iff_valid_id' does not depend on any axioms
+'LigoCalibration.faithful_characterisation' does not depend on any axioms
+'LigoCalibration.faithful_iff_preserves_ne' does not depend on any axioms
+'LigoCalibration.substitution_fails' does not depend on any axioms
+'LigoCalibration.separating_property' does not depend on any axioms
+'LigoCalibration.chain_fails' does not depend on any axioms
+'LigoCalibration.merged_pair_invalid' does not depend on any axioms
+'LigoCalibration.chain_unfaithful' does not depend on any axioms
+'LigoCalibration.faithful_comp' does not depend on any axioms
+'LigoCalibration.iso_faithful' does not depend on any axioms
+'LigoCalibration.iso_preserves_ne' does not depend on any axioms
+'LigoCalibration.iso_reflects_ne' does not depend on any axioms
+'LigoCalibration.isoTrans' does not depend on any axioms
+'LigoCalibration.faithful_iff_carriers_detect_equality' does not depend on any axioms
+'LigoCalibration.carriers_gap' does not depend on any axioms
+'LigoCalibration.psi15_not_faithful' depends on axioms: [propext]
+'LigoCalibration.waveform_carriers_iso_states_differ' depends on axioms: [propext]
+'LigoCalibration.affine_unit_gain_faithful' depends on axioms: [propext]
+'LigoCalibration.affine_zero_gain_not_faithful' depends on axioms: [propext]
+'LigoCalibration.affine_faithful_iff' depends on axioms: [propext]
+'LigoCalibration.faithful_hom_independent' depends on axioms: [propext]
+'LigoCalibration.offset_preserves_differences' depends on axioms: [propext]
+'LigoCalibration.translationIso' depends on axioms: [propext]
+'LigoCalibration.offset_iso_not_hom' depends on axioms: [propext]
+'LigoCalibration.affine_comp' depends on axioms: [propext]
+'LigoCalibration.hom_comp' does not depend on any axioms
+'LigoCalibration.affine_defect_everywhere' depends on axioms: [propext]
+'LigoCalibration.offset_scale_checkpoint' does not depend on any axioms
+'LigoCalibration.Within' does not depend on any axioms
+'LigoCalibration.within_refl' does not depend on any axioms
+'LigoCalibration.within_symm' does not depend on any axioms
+'LigoCalibration.within_not_transitive' does not depend on any axioms
+'LigoCalibration.within_not_a_kernel' does not depend on any axioms
+'LigoCalibration.amPerMm' does not depend on any axioms
+'LigoCalibration.perturbationAm' does not depend on any axioms
+'LigoCalibration.perturbation_exact' does not depend on any axioms
+'LigoCalibration.margin_chain_at_scale' does not depend on any axioms
+'LigoCalibration.one_anchor_invalid_for_gain' depends on axioms: [propext]
+'LigoCalibration.one_anchor_invalid_for_offset' depends on axioms: [propext]
+'LigoCalibration.zero_anchor_identifies_offset' depends on axioms: [propext]
+'LigoCalibration.zero_unit_anchors_valid' depends on axioms: [propext]
+'LigoCompression.Coupling' does not depend on any axioms
+'LigoCompression.Coupling.total' does not depend on any axioms
+'LigoCompression.Coupling.trigH' does not depend on any axioms
+'LigoCompression.Coupling.trigL' does not depend on any axioms
+'LigoCompression.slideData' does not depend on any axioms
+'LigoCompression.productLaw' does not depend on any axioms
+'LigoCompression.slid' does not depend on any axioms
+'LigoCompression.zeroLag' does not depend on any axioms
+'LigoCompression.frechet_bounds' depends on axioms: [propext, Quot.sound]
+'LigoCompression.frechet_move' depends on axioms: [propext, Quot.sound]
+'LigoCompression.slide_fibre_coordinate' depends on axioms: [propext]
+'LigoCompression.slides_invalid_for_zeroLag' does not depend on any axioms
+'LigoCompression.slides_any_statistic_invalid' does not depend on any axioms
+'LigoCompression.marginal_statistics_invalid' does not depend on any axioms
+'LigoCompression.SlideExact' does not depend on any axioms
+'LigoCompression.slides_valid_on_independence' does not depend on any axioms
+'LigoCompression.anchor_repairs_iff' depends on axioms: [propext]
+'LigoCompression.slide_estimate_not_a_bound' does not depend on any axioms
+'LigoCompression.frechet_ends' depends on axioms: [propext, Quot.sound]
+'LigoCompression.coincident_end_excess' depends on axioms: [propext]
+'LigoCompression.gw150914_frechet_scale' does not depend on any axioms
+'LigoCompression.gw150914_slide_ledger' does not depend on any axioms
+'LigoCompression.NoiseLaw' does not depend on any axioms
+'LigoCompression.mass' does not depend on any axioms
+'LigoCompression.power' does not depend on any axioms
+'LigoCompression.tail' does not depend on any axioms
+'LigoCompression.psd' does not depend on any axioms
+'LigoCompression.chebyshev' does not depend on any axioms
+'LigoCompression.psd_invalid_for_tail' does not depend on any axioms
+'LigoCompression.chebyshev_interval_5p1' does not depend on any axioms
+'LigoCompression.tail_max_5p1' depends on axioms: [propext, Quot.sound]
+'LigoCompression.TwoModel' does not depend on any axioms
+'LigoCompression.overall' does not depend on any axioms
+'LigoCompression.bma' does not depend on any axioms
+'LigoCompression.overall_invalid_for_bma' does not depend on any axioms
+'LigoCompression.bma_witness_not_rescaled' does not depend on any axioms
+'LigoCompression.bma_shift' depends on axioms: [propext, Quot.sound]
+'LigoCompression.gw150914_m1_bma_shift' does not depend on any axioms
+'LigoCompression.sigmaSys2' does not depend on any axioms
+'LigoCompression.sigmaSys2_blind' depends on axioms: [propext]
+'LigoCompression.sigmaSys2_invalid_for_common_error' depends on axioms: [propext]
+'LigoCompression.ShiftEquivariant' does not depend on any axioms
+'LigoCompression.firstSample' does not depend on any axioms
+'LigoCompression.firstSample_equivariant' does not depend on any axioms
+'LigoCompression.sigmaSys_samples_blind' depends on axioms: [propext]
+'LigoCompression.sigmaSys_samples_invalid' depends on axioms: [propext]
+'LigoCompression.tableI_m1_sigmaSys' does not depend on any axioms
+'LigoCompression.peval' does not depend on any axioms
+'LigoCompression.padd' does not depend on any axioms
+'LigoCompression.pscale' does not depend on any axioms
+'LigoCompression.pquot' does not depend on any axioms
+'LigoCompression.nodePoly' does not depend on any axioms
+'LigoCompression.peval_padd' depends on axioms: [propext, Quot.sound]
+'LigoCompression.peval_pscale' depends on axioms: [propext]
+'LigoCompression.peval_pquot' depends on axioms: [propext, Quot.sound]
+'LigoCompression.length_padd_le' does not depend on any axioms
+'LigoCompression.length_pscale' does not depend on any axioms
+'LigoCompression.length_pquot_le_self' does not depend on any axioms
+'LigoCompression.length_pquot_cons' does not depend on any axioms
+'LigoCompression.length_pquot_pred' does not depend on any axioms
+'LigoCompression.Distinct' does not depend on any axioms
+'LigoCompression.vanish_everywhere' depends on axioms: [propext, Quot.sound]
+'LigoCompression.map_eq_of_mem' does not depend on any axioms
+'LigoCompression.eq_of_map_eq' does not depend on any axioms
+'LigoCompression.PolyLe' does not depend on any axioms
+'LigoCompression.psub' does not depend on any axioms
+'LigoCompression.anchors_valid' depends on axioms: [propext, Quot.sound]
+'LigoCompression.peval_nodePoly_cons' depends on axioms: [propext, Quot.sound]
+'LigoCompression.nodePoly_zero' depends on axioms: [propext, Quot.sound]
+'LigoCompression.nodePoly_ne_zero' depends on axioms: [propext, Quot.sound]
+'LigoCompression.peval_nodePoly' depends on axioms: [propext, Quot.sound]
+'LigoCompression.length_nodePoly' does not depend on any axioms
+'LigoCompression.anchors_invalid_one_degree_up' depends on axioms: [propext, Quot.sound]
+'LigoCompression.anchor_threshold' depends on axioms: [propext, Quot.sound]
+'LigoCompression.finite_anchors_invalid' depends on axioms: [propext, Quot.sound]
+'LigoCompression.validationView' does not depend on any axioms
+'LigoCompression.double_blind' depends on axioms: [propext, Quot.sound]
+'LigoCompression.nineteen_nodes' depends on axioms: [propext, Quot.sound]
+'LigoCompression.Resp' does not depend on any axioms
+'LigoCompression.respond' does not depend on any axioms
+'LigoCompression.det' does not depend on any axioms
+'LigoCompression.adj_fst' depends on axioms: [propext, Quot.sound]
+'LigoCompression.adj_snd' depends on axioms: [propext, Quot.sound]
+'LigoCompression.respond_zero' depends on axioms: [propext]
+'LigoCompression.respond_faithful_of_det' depends on axioms: [propext, Quot.sound]
+'LigoCompression.respond_kernel_of_det_zero' depends on axioms: [propext, Quot.sound]
+'LigoCompression.network_valid_iff_det' depends on axioms: [propext, Quot.sound]
+'LigoCompression.coaligned_det' depends on axioms: [propext]
+'LigoCompression.coaligned_not_valid' depends on axioms: [propext, Quot.sound]
+'LigoCompression.Pol3' does not depend on any axioms
+'LigoCompression.dot3' does not depend on any axioms
+'LigoCompression.respond3' does not depend on any axioms
+'LigoCompression.cross3' does not depend on any axioms
+'LigoCompression.dot_cross_left' depends on axioms: [propext, Quot.sound]
+'LigoCompression.dot_cross_right' depends on axioms: [propext, Quot.sound]
+'LigoCompression.dot_cross_swap' depends on axioms: [propext, Quot.sound]
+'LigoCompression.kernel_of_cross_zero' depends on axioms: [propext, Quot.sound]
+'LigoCompression.cross_basis' depends on axioms: [propext, Quot.sound]
+'LigoCompression.two_detectors_three_modes' depends on axioms: [propext, Quot.sound]
+'LigoCompression.two_detectors_invalid_for_polarization' depends on axioms: [propext, Quot.sound]
+'LigoCompression.centered_congr' depends on axioms: [propext]
+'LigoCompression.proportional_streams_perfect' depends on axioms: [propext]
+'LigoCompression.proportional_minors_vanish' depends on axioms: [propext]
+'LigoCompression.coaligned_streams' depends on axioms: [propext]
+'LigoCompression.coaligned_perfect_association' depends on axioms: [propext]
+'LigoCompression.ligo_compression_obstructions' depends on axioms: [propext, Quot.sound]
+'LigoCongruence.Ker' does not depend on any axioms
+'LigoCongruence.IsValidFor' does not depend on any axioms
+'LigoCongruence.IsInvalidFor' does not depend on any axioms
+'LigoCongruence.invalid_not_valid' does not depend on any axioms
+'LigoCongruence.valid_iff_not_invalid' does not depend on any axioms
+'LigoCongruence.factor_valid' does not depend on any axioms
+'LigoCongruence.invalid_no_factor' does not depend on any axioms
+'LigoCongruence.valid_factor' does not depend on any axioms
+'LigoCongruence.valid_iff_factor' does not depend on any axioms
+'LigoCongruence.no_repair' does not depend on any axioms
+'LigoCongruence.invalid_postcompose' does not depend on any axioms
+'LigoCongruence.chain_blind' does not depend on any axioms
+'LigoCongruence.ker_pair' does not depend on any axioms
+'LigoCongruence.anchor_valid' does not depend on any axioms
+'LigoCongruence.SameRatio' does not depend on any axioms
+'LigoCongruence.posterior_odds_frozen' depends on axioms: [propext]
+'LigoCongruence.within_class_prior_echo' depends on axioms: [propext]
+'LigoCongruence.within_class_prior_echo_norm' depends on axioms: [propext]
+'LigoCongruence.psi15' does not depend on any axioms
+'LigoCongruence.phase15' does not depend on any axioms
+'LigoCongruence.psi15_fibre' depends on axioms: [propext]
+'LigoCongruence.psi15_orbit' depends on axioms: [propext]
+'LigoCongruence.psi15_eq_iff' depends on axioms: [propext]
+'LigoCongruence.phase15_fibre' depends on axioms: [propext]
+'LigoCongruence.waveform_invalid_for_spin' depends on axioms: [propext]
+'LigoCongruence.psi15_invalid_for_spin' depends on axioms: [propext]
+'LigoCongruence.sumTo' does not depend on any axioms
+'LigoCongruence.sumTo_zero_fn' does not depend on any axioms
+'LigoCongruence.sumTo_one_fn' does not depend on any axioms
+'LigoCongruence.cons_congr' does not depend on any axioms
+'LigoCongruence.diffs' does not depend on any axioms
+'LigoCongruence.diffs_shift' depends on axioms: [propext]
+'LigoCongruence.pairwise_blind_list' depends on axioms: [propext]
+'LigoCongruence.diffs_const' depends on axioms: [propext]
+'LigoCongruence.pairwise_invalid_for_common_mode_list' depends on axioms: [propext]
+'LigoCongruence.pairwise_blind' depends on axioms: [propext]
+'LigoCongruence.pairwise_invalid_for_common_mode' does not depend on any axioms
+'LigoCongruence.mixVar4' does not depend on any axioms
+'LigoCongruence.mixVar4_blind' depends on axioms: [propext]
+'LigoCongruence.mixVar4_invalid_for_location' depends on axioms: [propext]
+'LigoCongruence.parallelogram' depends on axioms: [propext]
+'LigoCongruence.mixVar4_from_moments' depends on axioms: [propext]
+'LigoCongruence.etaNum' does not depend on any axioms
+'LigoCongruence.eta_swap' depends on axioms: [propext]
+'LigoCongruence.etaPair' does not depend on any axioms
+'LigoCongruence.prod_mk_congr' does not depend on any axioms
+'LigoCongruence.etaPair_swap' depends on axioms: [propext]
+'LigoCongruence.eta_invalid_for_q' does not depend on any axioms
+'LigoCongruence.eta_invalid_of_ne' depends on axioms: [propext]
+'LigoCongruence.four_mul_eq' depends on axioms: [propext]
+'LigoCongruence.sq_diff_core' depends on axioms: [propext]
+'LigoCongruence.eta_fold' depends on axioms: [propext]
+'LigoCongruence.sysVar2' does not depend on any axioms
+'LigoCongruence.sysVar2_blind' depends on axioms: [propext]
+'LigoCongruence.uncertainty_triple_invalid_for_shared_error' depends on axioms: [propext]
+'LigoCongruence.spin_triangle' depends on axioms: [propext, Quot.sound]
+'LigoCongruence.spin_gap_invalid_for_bias' depends on axioms: [propext, Quot.sound]
+'LigoCongruence.fold_shift' depends on axioms: [propext, Quot.sound]
+'LigoCongruence.fold_flat_at_equal_mass' depends on axioms: [propext, Quot.sound]
+'LigoCongruence.gw150914_fold_shift' does not depend on any axioms
+'LigoCongruence.effNum' does not depend on any axioms
+'LigoCongruence.lockpoint_any_symmetric' does not depend on any axioms
+'LigoCongruence.massSpinObs_symm' depends on axioms: [propext]
+'LigoCongruence.lockpoint_invalid_for_primary_spin' depends on axioms: [propext]
+'LigoCongruence.spin_attribution_signal' depends on axioms: [propext, Quot.sound]
+'LigoCongruence.gw150914_attribution_weight' does not depend on any axioms
+'LigoCongruence.Cause' does not depend on any axioms
+'LigoCongruence.strain_statistic_invalid_for_cause' does not depend on any axioms
+'LigoCongruence.detection_odds_frozen' depends on axioms: [propext]
+'LigoCongruence.pem' depends on axioms: [propext]
+'LigoCongruence.pem_fails_on_uncoupled' depends on axioms: [propext]
+'LigoCongruence.pem_repairs_when_coupled' depends on axioms: [propext]
+'LigoCongruence.every_procedure_errs' does not depend on any axioms
+'LigoCongruence.conservation_of_distinction' does not depend on any axioms
+'LigoCongruence.detection_pipeline_blind' does not depend on any axioms
+'LigoCongruence.detection_rule_errs' does not depend on any axioms
+'LigoCongruence.pe_pipeline_blind' depends on axioms: [propext]
+'LigoCongruence.lockpoint_pipeline_blind' does not depend on any axioms
+'LigoNullSpace.sumC' does not depend on any axioms
+'LigoNullSpace.difC' does not depend on any axioms
+'LigoNullSpace.sdMap' does not depend on any axioms
+'LigoNullSpace.det2' does not depend on any axioms
+'LigoNullSpace.sd_det' does not depend on any axioms
+'LigoNullSpace.sd_inverse' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.sd_injective' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.common_shift' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.difC_fibre' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.difC_zero_iff' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.agreement_is_not_level' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.difC_invalid_for_sum' does not depend on any axioms
+'LigoNullSpace.sum_not_factor' does not depend on any axioms
+'LigoNullSpace.sum_separates' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.sum_anchors_difference' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.am' does not depend on any axioms
+'LigoNullSpace.nm' does not depend on any axioms
+'LigoNullSpace.rStar' does not depend on any axioms
+'LigoNullSpace.rStarBig' does not depend on any axioms
+'LigoNullSpace.hanford_sd' does not depend on any axioms
+'LigoNullSpace.hanford_levels_merged' does not depend on any axioms
+'LigoNullSpace.tableI_q_common_line' does not depend on any axioms
+'LigoNullSpace.projP2' does not depend on any axioms
+'LigoNullSpace.projM2' does not depend on any axioms
+'LigoNullSpace.projector_resolution' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.projector_squares' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.projM2_common' depends on axioms: [propext]
+'LigoNullSpace.linT' does not depend on any axioms
+'LigoNullSpace.linT_shift' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.linT_valid_iff' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.sum_not_valid_for_difference' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.difference_valid_for_difference' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.no_bound_from_difference' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.no_finite_bound' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.rule_errs_on_pair' does not depend on any axioms
+'LigoNullSpace.estimate_error_split' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.difference_estimator_unbounded' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.PGD' does not depend on any axioms
+'LigoNullSpace.recon' does not depend on any axioms
+'LigoNullSpace.obsD' does not depend on any axioms
+'LigoNullSpace.obsS' does not depend on any axioms
+'LigoNullSpace.obsSD' does not depend on any axioms
+'LigoNullSpace.obs_formulas' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.obsD_level_free' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.obsD_kernel' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.obsD_valid_for_d' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.obsD_invalid_for_P' does not depend on any axioms
+'LigoNullSpace.obsD_invalid_for_g' does not depend on any axioms
+'LigoNullSpace.obsD_invalid_for_level' does not depend on any axioms
+'LigoNullSpace.obsSD_kernel' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.obsSD_orbit' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.obsSD_invalid_for_P' does not depend on any axioms
+'LigoNullSpace.obsSD_invalid_for_g' does not depend on any axioms
+'LigoNullSpace.obsSD_valid_for_level' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.obsSD_valid_for_d' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.information_hierarchy' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.hanford_confounding' does not depend on any axioms
+'LigoNullSpace.anchorRead' does not depend on any axioms
+'LigoNullSpace.levelAnchor' does not depend on any axioms
+'LigoNullSpace.anchor_valid_iff' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.anchor_inversion' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.anchor_example' does not depend on any axioms
+'LigoNullSpace.fisher_block_det' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.fisher_singular_iff' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.dot3' does not depend on any axioms
+'LigoNullSpace.fisher' does not depend on any axioms
+'LigoNullSpace.fisher_null' does not depend on any axioms
+'LigoNullSpace.eP' does not depend on any axioms
+'LigoNullSpace.eG' does not depend on any axioms
+'LigoNullSpace.eD' does not depend on any axioms
+'LigoNullSpace.rowD' does not depend on any axioms
+'LigoNullSpace.rowS' does not depend on any axioms
+'LigoNullSpace.fisher_difference_channel' does not depend on any axioms
+'LigoNullSpace.fisher_sum_difference' does not depend on any axioms
+'LigoNullSpace.fisher_anchored' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.fisher_anchored_det' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.lawD' does not depend on any axioms
+'LigoNullSpace.d_channel_same_law' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.d_channel_hypotheses_differ' does not depend on any axioms
+'LigoNullSpace.absDiff' does not depend on any axioms
+'LigoNullSpace.tvNum' does not depend on any axioms
+'LigoNullSpace.tvNum_of_pointwise' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.acceptMass' does not depend on any axioms
+'LigoNullSpace.acceptMass_congr' does not depend on any axioms
+'LigoNullSpace.d_channel_tests_blind' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.massOver' does not depend on any axioms
+'LigoNullSpace.massOver_mul' does not depend on any axioms
+'LigoNullSpace.postPG' does not depend on any axioms
+'LigoNullSpace.postPG_factor' does not depend on any axioms
+'LigoNullSpace.level_posterior_odds_frozen' depends on axioms: [propext]
+'LigoNullSpace.priorTied' does not depend on any axioms
+'LigoNullSpace.priorFlat' does not depend on any axioms
+'LigoNullSpace.likD' does not depend on any axioms
+'LigoNullSpace.postMassP' does not depend on any axioms
+'LigoNullSpace.postMassAll' does not depend on any axioms
+'LigoNullSpace.priorMassP' does not depend on any axioms
+'LigoNullSpace.priorMassAll' does not depend on any axioms
+'LigoNullSpace.prior_coupling_moves_blind_coordinate' does not depend on any axioms
+'LigoNullSpace.priorOf' does not depend on any axioms
+'LigoNullSpace.ksFlag' does not depend on any axioms
+'LigoNullSpace.ks_flag_not_function_of_likelihood' does not depend on any axioms
+'LigoNullSpace.jointW' does not depend on any axioms
+'LigoNullSpace.likelihood_constant_on_fibre' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.calibration_prior_transport' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.deltaAt' does not depend on any axioms
+'LigoNullSpace.hanford_transport' does not depend on any axioms
+'LigoNullSpace.difference_blind_to_common_error' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.samples' does not depend on any axioms
+'LigoNullSpace.momD1' does not depend on any axioms
+'LigoNullSpace.momD2' does not depend on any axioms
+'LigoNullSpace.momR1' does not depend on any axioms
+'LigoNullSpace.momR2' does not depend on any axioms
+'LigoNullSpace.common_error_variance_family' does not depend on any axioms
+'LigoNullSpace.many_channels_blind' depends on axioms: [propext]
+'LigoNullSpace.two_hundred_thousand_channels_blind' depends on axioms: [propext]
+'LigoNullSpace.Latent' does not depend on any axioms
+'LigoNullSpace.Row' does not depend on any axioms
+'LigoNullSpace.ev' does not depend on any axioms
+'LigoNullSpace.addL' does not depend on any axioms
+'LigoNullSpace.subL' does not depend on any axioms
+'LigoNullSpace.zeroL' does not depend on any axioms
+'LigoNullSpace.measureSuite' does not depend on any axioms
+'LigoNullSpace.InKernel' does not depend on any axioms
+'LigoNullSpace.ev_add' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.ev_sub' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.ev_zero' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.map_congr_mem' does not depend on any axioms
+'LigoNullSpace.eq_of_map_eq_mem' does not depend on any axioms
+'LigoNullSpace.measure_shift' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.audit_invalid' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.audit_exact' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.kernel_extend' depends on axioms: [propext]
+'LigoNullSpace.redundant_rows_no_repair' does not depend on any axioms
+'LigoNullSpace.mem_replicate_eq' does not depend on any axioms
+'LigoNullSpace.rowDiff' does not depend on any axioms
+'LigoNullSpace.rowSum' does not depend on any axioms
+'LigoNullSpace.rowP' does not depend on any axioms
+'LigoNullSpace.anchorCal' does not depend on any axioms
+'LigoNullSpace.anchorTime' does not depend on any axioms
+'LigoNullSpace.anchorAct' does not depend on any axioms
+'LigoNullSpace.anchorSens' does not depend on any axioms
+'LigoNullSpace.agreementSuite' does not depend on any axioms
+'LigoNullSpace.levelSuite' does not depend on any axioms
+'LigoNullSpace.anchoredSuite' does not depend on any axioms
+'LigoNullSpace.vP' does not depend on any axioms
+'LigoNullSpace.vCal' does not depend on any axioms
+'LigoNullSpace.vTime' does not depend on any axioms
+'LigoNullSpace.vAct' does not depend on any axioms
+'LigoNullSpace.vSens' does not depend on any axioms
+'LigoNullSpace.agreement_suite_invalid' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.level_suite_invalid' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.anchored_suite_valid_for_P' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.each_anchor_necessary' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.repeated_agreement_invalid' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.hanford_suite_witness' does not depend on any axioms
+'LigoNullSpace.twoSided' does not depend on any axioms
+'LigoNullSpace.direction' does not depend on any axioms
+'LigoNullSpace.twoSided_invalid_for_direction' does not depend on any axioms
+'LigoNullSpace.significant' does not depend on any axioms
+'LigoNullSpace.threshold_no_repair' does not depend on any axioms
+'LigoNullSpace.zStat' does not depend on any axioms
+'LigoNullSpace.effectSize' does not depend on any axioms
+'LigoNullSpace.zstat_invalid_for_effect' does not depend on any axioms
+'LigoNullSpace.chi2' does not depend on any axioms
+'LigoNullSpace.neg_sq' depends on axioms: [propext]
+'LigoNullSpace.chi2_invalid_for_pattern' does not depend on any axioms
+'LigoNullSpace.chi2_symmetries' depends on axioms: [propext]
+'LigoNullSpace.ksSup' does not depend on any axioms
+'LigoNullSpace.natAbs_neg_eq' does not depend on any axioms
+'LigoNullSpace.ksSup_neg' does not depend on any axioms
+'LigoNullSpace.leading' does not depend on any axioms
+'LigoNullSpace.ks_invalid_for_direction' does not depend on any axioms
+'LigoNullSpace.constant_on_varying_set_not_valid' does not depend on any axioms
+'LigoNullSpace.statistical_pipeline_invalidations' does not depend on any axioms
+'LigoNullSpace.difference_proxy_carries_no_common_error' depends on axioms: [propext]
+'LigoNullSpace.calibration_marginalisation_transports_bias' depends on axioms: [propext, Quot.sound]
+'LigoNullSpace.ks_test_not_informativeness' does not depend on any axioms
+'LigoNullSpace.ligo_null_space_invalidation' depends on axioms: [propext, Quot.sound]
+'PerfectAssociation.qValue' does not depend on any axioms
+'PerfectAssociation.xValue' does not depend on any axioms
+'PerfectAssociation.response' does not depend on any axioms
+'PerfectAssociation.observe' does not depend on any axioms
+'PerfectAssociation.observationalTable' does not depend on any axioms
+'PerfectAssociation.CausesQX' does not depend on any axioms
+'PerfectAssociation.observation_independent' does not depend on any axioms
+'PerfectAssociation.tables_independent' does not depend on any axioms
+'PerfectAssociation.observables_distinct' does not depend on any axioms
+'PerfectAssociation.intervention_invariant' does not depend on any axioms
+'PerfectAssociation.no_causation' does not depend on any axioms
+'PerfectAssociation.causation_one' does not depend on any axioms
+'PerfectAssociation.causation_iff_nonzero' depends on axioms: [propext]
+'PerfectAssociation.causalDecision' does not depend on any axioms
+'PerfectAssociation.causalDecision_spec' depends on axioms: [propext]
+'PerfectAssociation.intervention_recovers_parameter' depends on axioms: [propext]
+'PerfectAssociation.two_interventions_identify' depends on axioms: [propext]
+'PerfectAssociation.ResponseHom' does not depend on any axioms
+'PerfectAssociation.ResponseIso' does not depend on any axioms
+'PerfectAssociation.no_response_hom' does not depend on any axioms
+'PerfectAssociation.no_response_iso' does not depend on any axioms
+'PerfectAssociation.no_response_iso_reverse' does not depend on any axioms
+'PerfectAssociation.collapse' does not depend on any axioms
+'PerfectAssociation.reverse_response_hom' does not depend on any axioms
+'PerfectAssociation.response_hom_preserves_invariance' does not depend on any axioms
+'PerfectAssociation.no_response_hom_to_effect' depends on axioms: [propext]
+'PerfectAssociation.no_observational_identifier' does not depend on any axioms
+'PerfectAssociation.Node' does not depend on any axioms
+'PerfectAssociation.DirectCauses' does not depend on any axioms
+'PerfectAssociation.CausalPath' does not depend on any axioms
+'PerfectAssociation.no_direct_causation' does not depend on any axioms
+'PerfectAssociation.no_outgoing_q' does not depend on any axioms
+'PerfectAssociation.no_causal_path' does not depend on any axioms
+'PerfectAssociation.common_source_graph' does not depend on any axioms
+'PerfectAssociation.total' does not depend on any axioms
+'PerfectAssociation.cross' does not depend on any axioms
+'PerfectAssociation.centered' does not depend on any axioms
+'PerfectAssociation.spread' does not depend on any axioms
+'PerfectAssociation.COR' does not depend on any axioms
+'PerfectAssociation.A' does not depend on any axioms
+'PerfectAssociation.S' does not depend on any axioms
+'PerfectAssociation.Q' does not depend on any axioms
+'PerfectAssociation.x' does not depend on any axioms
+'PerfectAssociation.exact_moments' does not depend on any axioms
+'PerfectAssociation.S_changes' does not depend on any axioms
+'PerfectAssociation.covariance_scales' does not depend on any axioms
+'PerfectAssociation.variance_scales' does not depend on any axioms
+'PerfectAssociation.perfect_correlation' does not depend on any axioms
+'PerfectAssociation.positive_exact_certificate' does not depend on any axioms
+'PerfectAssociation.Q_ne_x' does not depend on any axioms
+'PerfectAssociation.distinct_on_population' does not depend on any axioms
+'PerfectAssociation.exact_observational_line' does not depend on any axioms
+'PerfectAssociation.pairwise_source_differences' does not depend on any axioms
+'PerfectAssociation.foldl_accumulator' depends on axioms: [propext]
+'PerfectAssociation.total_cons' depends on axioms: [propext]
+'PerfectAssociation.total_congr' depends on axioms: [propext]
+'PerfectAssociation.total_add' depends on axioms: [propext]
+'PerfectAssociation.total_scale' depends on axioms: [propext]
+'PerfectAssociation.total_const' depends on axioms: [propext]
+'PerfectAssociation.total_affine' depends on axioms: [propext]
+'PerfectAssociation.cross_eq_total' does not depend on any axioms
+'PerfectAssociation.cross_affine' depends on axioms: [propext]
+'PerfectAssociation.cancel_three' depends on axioms: [propext]
+'PerfectAssociation.covariance_affine_algebra' depends on axioms: [propext]
+'PerfectAssociation.centered_affine' depends on axioms: [propext]
+'PerfectAssociation.spread_affine' depends on axioms: [propext]
+'PerfectAssociation.centered_Qx_population' depends on axioms: [propext]
+'PerfectAssociation.spread_Q_population' depends on axioms: [propext]
+'PerfectAssociation.spread_x_population' depends on axioms: [propext]
+'PerfectAssociation.perfect_correlation_population' depends on axioms: [propext]
+'PerfectAssociation.Q_difference' depends on axioms: [propext]
+'PerfectAssociation.x_difference' depends on axioms: [propext]
+'PerfectAssociation.difference_determinant_zero' depends on axioms: [propext]
+'PerfectAssociation.observational_line' depends on axioms: [propext]
+'Sameness.Same' does not depend on any axioms
+'Sameness.eq_iff_same' does not depend on any axioms
+'Sameness.eq_iff_indiscernible' does not depend on any axioms
+'Sameness.eq_iff_same_values' does not depend on any axioms
+'Sameness.refl'' does not depend on any axioms
+'Sameness.symm'' does not depend on any axioms
+'Sameness.trans'' does not depend on any axioms
+'Sameness.eq_equivalence' does not depend on any axioms
+'Sameness.eq_le_of_refl' does not depend on any axioms
+'Sameness.SetUniverse' does not depend on any axioms
+'Sameness.SetUniverse.mem_right_of_eq' does not depend on any axioms
+'Sameness.SetUniverse.mem_left_of_eq' does not depend on any axioms
+'Sameness.SetUniverse.Extensional' does not depend on any axioms
+'Sameness.SetUniverse.eq_iff_same_members' does not depend on any axioms
+'Sameness.ackermann' depends on axioms: [propext]
+'Sameness.ackermann_extensional' depends on axioms: [propext, Quot.sound]
+'Sameness.PSet' does not depend on any axioms
+'Sameness.PSet.Mem' does not depend on any axioms
+'Sameness.PSet.mem_iff_of_eq' does not depend on any axioms
+'Sameness.PSet.mem_of_iff_of_eq' does not depend on any axioms
+'Sameness.PSet.ext'' depends on axioms: [propext, Quot.sound]
+'Sameness.PSet.eq_iff' depends on axioms: [propext, Quot.sound]
+'Sameness.Iso' does not depend on any axioms
+'Sameness.Iso.refl' does not depend on any axioms
+'Sameness.Iso.symm' does not depend on any axioms
+'Sameness.Iso.injective' does not depend on any axioms
+'Sameness.Iso.surjective' does not depend on any axioms
+'Sameness.isoOfEq' does not depend on any axioms
+'Sameness.transport' does not depend on any axioms
+'Sameness.transport_refl' does not depend on any axioms
+'Sameness.transport_trans' does not depend on any axioms
+'Sameness.transport_symm' does not depend on any axioms
+'Sameness.transport_natural' does not depend on any axioms
+'Sameness.eq_iff_forall_iso' does not depend on any axioms
+'Sameness.Magma' does not depend on any axioms
+'Sameness.MagmaHom' does not depend on any axioms
+'Sameness.MagmaIso' does not depend on any axioms
+'Sameness.MagmaIso.refl' does not depend on any axioms
+'Sameness.MagmaIso.symm' does not depend on any axioms
+'Sameness.MagmaIso.ofEq' does not depend on any axioms
+'Sameness.MagmaHom.ofEq' does not depend on any axioms
+'Sameness.MagmaIso.ofEq_refl' does not depend on any axioms
+'Sameness.natAdd' does not depend on any axioms
+'Measure.QuantityKind' does not depend on any axioms
+'Measure.ArithOp' does not depend on any axioms
+'Measure.OrderRel' does not depend on any axioms
+'Measure.arithOrder' does not depend on any axioms
+'Measure.Tons' does not depend on any axioms
+'Measure.Kilograms' does not depend on any axioms
+'Measure.Smiles' does not depend on any axioms
+'Measure.ratOp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Measure.ratRel' depends on axioms: [propext]
+'Measure.natOp' depends on axioms: [propext]
+'Measure.natRel' depends on axioms: [propext]
+'Measure.tonScale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Measure.kgScale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Measure.smileScale' depends on axioms: [propext]
+'Measure.tons_smiles_not_sameKind' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Measure.tons_vs_smiles_not_comparable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Measure.numerals_do_not_create_comparability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Measure.shortTon' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Measure.shortTon_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Measure.shortTon_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Measure.tonsToKg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Measure.kgToTons' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Measure.kgToTons_tonsToKg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Measure.tonsToKg_kgToTons' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Measure.tonsToKg_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Measure.shortTon_lt_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Measure.shortTon_le_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Measure.shortTon_eq_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Measure.tonsToKg_preservesOperation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Measure.tonsToKg_eq_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Measure.tonsToKg_rel_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Measure.tonsToKg_fullSubstitution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Measure.tonsKgCalibration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Measure.tons_kg_isomorphic_transposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Measure.tonsKgCalibration_recal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Measure.two_hundred_tons_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Measure.two_hundred_tons_vs_fifteen_kg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Measure.equality_representation_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Measure.WholeTons' does not depend on any axioms
+'Measure.FineUnits' does not depend on any axioms
+'Measure.intOp' depends on axioms: [propext]
+'Measure.intRel' depends on axioms: [propext]
+'Measure.wholeTonScale' depends on axioms: [propext]
+'Measure.fineScale' depends on axioms: [propext]
+'Measure.shortTonFine' does not depend on any axioms
+'Measure.tonsToFine' does not depend on any axioms
+'Measure.fineCalibrated' does not depend on any axioms
+'Measure.fineToTons' does not depend on any axioms
+'Measure.shortTonFine_pos' does not depend on any axioms
+'Measure.shortTonFine_ne_zero' does not depend on any axioms
+'Measure.tonsToFine_preservesOperation' depends on axioms: [propext]
+'Measure.tonsToFine_eq_iff' depends on axioms: [propext]
+'Measure.tonsToFine_rel_iff' depends on axioms: [propext]
+'Measure.wholeTonsCalibration' depends on axioms: [propext]
+'Measure.wholeTons_isomorphic_calibrated_range' depends on axioms: [propext, Quot.sound]
+'Measure.tonsToFine_not_full_calibration' depends on axioms: [propext, Quot.sound]
+'Measure.two_hundred_whole_tons' depends on axioms: [propext]
+'LigoSpecious.TableRel' does not depend on any axioms
+'LigoSpecious.tableSig' does not depend on any axioms
+'LigoSpecious.addNat' depends on axioms: [propext]
+'LigoSpecious.tableRel' depends on axioms: [propext]
+'LigoSpecious.natStr' depends on axioms: [propext]
+'LigoSpecious.tableI_median_not_additive' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_tableI_imrphenom_median_not_additive' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.tableI_median_not_redshift_relation' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_tableI_eobnr_totalMass_not_redshift' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_tableI_imrphenom_totalMass_not_redshift' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_tableI_imrphenom_secondaryMass_not_redshift' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_tableI_imrphenom_finalMass_not_redshift' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ksVerdict' does not depend on any axioms
+'LigoSpecious.ligo_ks_phi12_verdict_split' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ParamPoint' does not depend on any axioms
+'LigoSpecious.statedDomain' does not depend on any axioms
+'LigoSpecious.calibratedRegion' does not depend on any axioms
+'LigoSpecious.StatedPoint' does not depend on any axioms
+'LigoSpecious.CalPoint' does not depend on any axioms
+'LigoSpecious.statedStr' does not depend on any axioms
+'LigoSpecious.calStr' does not depend on any axioms
+'LigoSpecious.calibrated_subset' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.calEmbed' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.calEmbed_preservesOperation' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.calEmbed_homomorphic' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.calEmbed_injective' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.uncalibratedPoint' does not depend on any axioms
+'LigoSpecious.ligo_calibration_scope_not_exact' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.not_calibrated_of_spin' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_calibration_injection_outside' does not depend on any axioms
+'LigoSpecious.ligo_calibration_credible_spin_bounds' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_calibration_posterior_mass_outside' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.LigoKind' does not depend on any axioms
+'LigoSpecious.AddOp' does not depend on any axioms
+'LigoSpecious.addSig' does not depend on any axioms
+'LigoSpecious.bareSig' does not depend on any axioms
+'LigoSpecious.addInt' depends on axioms: [propext]
+'LigoSpecious.addPair' depends on axioms: [propext]
+'LigoSpecious.noOp' does not depend on any axioms
+'LigoSpecious.pair_congr' does not depend on any axioms
+'LigoSpecious.fibre_obstructs' does not depend on any axioms
+'LigoSpecious.relation_not_reflected' does not depend on any axioms
+'LigoSpecious.pairStr' depends on axioms: [propext]
+'LigoSpecious.diffStr' depends on axioms: [propext]
+'LigoSpecious.modelDiff' does not depend on any axioms
+'LigoSpecious.modelDiff_preservesOperation' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.modelDiff_homomorphic' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_modelDifference_commonMode_fibre' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.modelDiff_fibre_witness' does not depend on any axioms
+'LigoSpecious.ligo_modelDifference_not_injective' depends on axioms: [propext]
+'LigoSpecious.ligo_modelDifference_not_fullSubstitution' depends on axioms: [propext]
+'LigoSpecious.ligo_modelDifference_no_exact_calibration' depends on axioms: [propext]
+'LigoSpecious.ligo_modelDifference_not_isomorphic_transposition' depends on axioms: [propext]
+'LigoSpecious.diffSum' does not depend on any axioms
+'LigoSpecious.parityRange' does not depend on any axioms
+'LigoSpecious.diffSumRecal' does not depend on any axioms
+'LigoSpecious.diffSum_preservesOperation' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.diffSum_eq_iff' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.diffSum_lands' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.diffSum_recal_spec' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.diffSumCalibration' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_modelDifference_anchor_isomorphism' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_overall_bias_free_of_difference' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.WithinRel' does not depend on any axioms
+'LigoSpecious.widthSig' does not depend on any axioms
+'LigoSpecious.errWithin' depends on axioms: [propext]
+'LigoSpecious.difWithin' depends on axioms: [propext]
+'LigoSpecious.errStr' depends on axioms: [propext]
+'LigoSpecious.difWStr' depends on axioms: [propext]
+'LigoSpecious.ligo_modelDifference_width_not_reflected' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_modelDifference_q_widths_not_reflected' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.SpinState' does not depend on any axioms
+'LigoSpecious.K1' does not depend on any axioms
+'LigoSpecious.K2' does not depend on any axioms
+'LigoSpecious.maxN' does not depend on any axioms
+'LigoSpecious.maxN_of_le' does not depend on any axioms
+'LigoSpecious.maxN_of_lt' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.chiPNum' does not depend on any axioms
+'LigoSpecious.chiPDen' does not depend on any axioms
+'LigoSpecious.chiP' does not depend on any axioms
+'LigoSpecious.spinStr' does not depend on any axioms
+'LigoSpecious.chiPStr' does not depend on any axioms
+'LigoSpecious.nrInjection' does not depend on any axioms
+'LigoSpecious.nrInjectionRot' does not depend on any axioms
+'LigoSpecious.chiPNum_nrInjection' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_chiP_real_values' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_chiP_injected_below_posterior_peak' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.sinAtTilts' does not depend on any axioms
+'LigoSpecious.sinAtTilts_windows' does not depend on any axioms
+'LigoSpecious.ligo_chiP_real_values_closed' does not depend on any axioms
+'LigoSpecious.chiP_azimuth_invariant' does not depend on any axioms
+'LigoSpecious.nrInjectionRot_ne' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_chiP_azimuth_fibre' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.chiP_fibre_witness' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_chiP_not_injective' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_chiP_not_fullSubstitution' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_chiP_no_exact_calibration' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_chiP_not_isomorphic_transposition' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.chiP_primary_fibre' does not depend on any axioms
+'LigoSpecious.ligo_chiP_primarySpin_fibre' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_chiP_primarySpin_threshold' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_chiP_primarySpin_credible_intervals' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.Post2' does not depend on any axioms
+'LigoSpecious.addPost' depends on axioms: [propext]
+'LigoSpecious.overall' does not depend on any axioms
+'LigoSpecious.post2Str' depends on axioms: [propext]
+'LigoSpecious.overallStr' depends on axioms: [propext]
+'LigoSpecious.overall_preservesOperation' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.overall_homomorphic' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_modelAverage_fibre' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_modelAverage_bound_segment' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.post2_witness_ne' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.modelAverage_fibre_witness' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_modelAverage_not_injective' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_modelAverage_not_fullSubstitution' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_modelAverage_no_exact_calibration' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_modelAverage_not_isomorphic_transposition' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ModeAmps' does not depend on any axioms
+'LigoSpecious.addModes' depends on axioms: [propext]
+'LigoSpecious.proj22' does not depend on any axioms
+'LigoSpecious.modeStr' depends on axioms: [propext]
+'LigoSpecious.modeProjStr' depends on axioms: [propext]
+'LigoSpecious.proj22_preservesOperation' depends on axioms: [propext]
+'LigoSpecious.proj22_homomorphic' depends on axioms: [propext]
+'LigoSpecious.proj22_validMeasurementComparison' depends on axioms: [propext]
+'LigoSpecious.ligo_modeProjection_fibre' does not depend on any axioms
+'LigoSpecious.modeAmps_witness_ne' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.modeProjection_fibre_witness' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_modeProjection_not_injective' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_modeProjection_not_fullSubstitution' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_modeProjection_no_exact_calibration' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_modeProjection_not_isomorphic_transposition' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_modeProjection_linear_not_injective' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.gaussExponent' does not depend on any axioms
+'LigoSpecious.resNeg' does not depend on any axioms
+'LigoSpecious.zipAdd' depends on axioms: [propext]
+'LigoSpecious.headZ' does not depend on any axioms
+'LigoSpecious.addList' depends on axioms: [propext]
+'LigoSpecious.int_neg_sq' depends on axioms: [propext]
+'LigoSpecious.gaussExponent_resNeg' depends on axioms: [propext]
+'LigoSpecious.exponent_pm_one' does not depend on any axioms
+'LigoSpecious.ligo_likelihood_sign_fibre' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.likelihood_fibre_witness' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.resBare' does not depend on any axioms
+'LigoSpecious.weightBare' does not depend on any axioms
+'LigoSpecious.ligo_likelihood_not_injective' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_likelihood_not_fullSubstitution' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_likelihood_no_exact_calibration' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_likelihood_not_isomorphic_transposition' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.resStr' depends on axioms: [propext]
+'LigoSpecious.weightStr' depends on axioms: [propext]
+'LigoSpecious.ligo_likelihood_not_additive' depends on axioms: [propext]
+'LigoSpecious.residual_weight_not_sameKind' depends on axioms: [propext]
+'LigoSpecious.ligo_residual_weight_not_comparable' depends on axioms: [propext]
+'LigoSpecious.Spin6' does not depend on any axioms
+'LigoSpecious.Spin4' does not depend on any axioms
+'LigoSpecious.addSpin6' depends on axioms: [propext]
+'LigoSpecious.addSpin4' depends on axioms: [propext]
+'LigoSpecious.imrSpin' does not depend on any axioms
+'LigoSpecious.spin6Str' depends on axioms: [propext]
+'LigoSpecious.spin4Str' depends on axioms: [propext]
+'LigoSpecious.spin4_congr' does not depend on any axioms
+'LigoSpecious.imrSpin_preservesOperation' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.imrSpin_homomorphic' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.imrSpin_eq_of' does not depend on any axioms
+'LigoSpecious.imrSpin_surjective' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_imrPhenom_spinCompression_fibre' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.imrSpin_fibre_witness' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_imrPhenom_spinCompression_not_injective' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_imrPhenom_spinCompression_not_fullSubstitution' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_imrPhenom_spinCompression_no_exact_calibration' depends on axioms: [propext, Quot.sound]
+'LigoSpecious.ligo_imrPhenom_spinCompression_not_isomorphic_transposition' depends on axioms: [propext, Quot.sound]
+'Measure.Signature' does not depend on any axioms
+'Measure.MeasStructure' does not depend on any axioms
+'Measure.SameKind' does not depend on any axioms
+'Measure.PreservesOperation' does not depend on any axioms
+'Measure.PreservesEquality' does not depend on any axioms
+'Measure.PreservesRelation' does not depend on any axioms
+'Measure.HomomorphicAssociation' does not depend on any axioms
+'Measure.ReflectsEquality' does not depend on any axioms
+'Measure.ReflectsRelation' does not depend on any axioms
+'Measure.FullSubstitution' does not depend on any axioms
+'Measure.Injective' does not depend on any axioms
+'Measure.SurjectiveOnto' does not depend on any axioms
+'Measure.ValidMeasurementComparison' does not depend on any axioms
+'Measure.ClosedRange' does not depend on any axioms
+'Measure.MeasStructure.restrict' does not depend on any axioms
+'Measure.MeasIso' does not depend on any axioms
+'Measure.Isomorphic' does not depend on any axioms
+'Measure.IsomorphicTransposition' does not depend on any axioms
+'Measure.ExactCalibration' does not depend on any axioms
+'Measure.preservesEquality_of_sameness' does not depend on any axioms
+'Measure.FullSubstitution.preservesRelation' does not depend on any axioms
+'Measure.FullSubstitution.reflectsRelation' does not depend on any axioms
+'Measure.fullSubstitution_reflectsEquality' does not depend on any axioms
+'Measure.fullSubstitution_injective' does not depend on any axioms
+'Measure.ExactCalibration.surjectiveOnto' does not depend on any axioms
+'Measure.ExactCalibration.recal_left' does not depend on any axioms
+'Measure.ExactCalibration.tuple_recal' depends on axioms: [Quot.sound]
+'Measure.ExactCalibration.closedRange' depends on axioms: [Quot.sound]
+'Measure.ExactCalibration.recal_preservesOperation' depends on axioms: [Quot.sound]
+'Measure.ExactCalibration.recal_rel_iff' depends on axioms: [propext, Quot.sound]
+'Measure.ExactCalibration.toIso' depends on axioms: [propext, Quot.sound]
+'Measure.ExactCalibration.toIsoFull' depends on axioms: [propext, Quot.sound]
+'Measure.exact_calibration_implies_isomorphic_transposition' depends on axioms: [propext, Quot.sound]
+'Measure.exact_calibration_isomorphic' depends on axioms: [propext, Quot.sound]
+'Measure.exact_full_calibration_isomorphic_transposition' depends on axioms: [propext, Quot.sound]
+'Measure.MeasIso.toExactCalibration' does not depend on any axioms
+'Measure.exists_exact_calibration_iff_isomorphic' depends on axioms: [propext, Quot.sound]
+'Measure.not_preservesOperation_of_noncommuting' does not depend on any axioms
+'Measure.not_hom_implies_not_valid' does not depend on any axioms
+'Measure.not_preservesRelation_implies_not_valid' does not depend on any axioms
+'Measure.not_injective_implies_not_fullSubstitution' does not depend on any axioms
+'Measure.not_surjective_implies_not_calibration' does not depend on any axioms
+'Measure.calibration_bijective' does not depend on any axioms
+'Measure.not_isomorphic_implies_not_full_calibration' depends on axioms: [propext, Quot.sound]
+'Measure.not_isomorphic_implies_not_exact_calibration' depends on axioms: [propext, Quot.sound]
+'Measure.different_quantity_kind_implies_not_comparable' does not depend on any axioms

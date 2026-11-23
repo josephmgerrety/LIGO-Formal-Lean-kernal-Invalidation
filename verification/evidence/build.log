@@ -1,0 +1,496 @@
+ℹ [2/36] Built PerfectAssociation.EqualityBridge (1.4s)
+info: PerfectAssociation/EqualityBridge.lean:119:0: 'EqualityBridge.eq_iff_same' does not depend on any axioms
+info: PerfectAssociation/EqualityBridge.lean:120:0: 'EqualityBridge.eq_iff_indiscernible' does not depend on any axioms
+info: PerfectAssociation/EqualityBridge.lean:121:0: 'EqualityBridge.Iso.refl' does not depend on any axioms
+info: PerfectAssociation/EqualityBridge.lean:122:0: 'EqualityBridge.Iso.symm' does not depend on any axioms
+info: PerfectAssociation/EqualityBridge.lean:123:0: 'EqualityBridge.Iso.injective' does not depend on any axioms
+info: PerfectAssociation/EqualityBridge.lean:124:0: 'EqualityBridge.Iso.surjective' does not depend on any axioms
+info: PerfectAssociation/EqualityBridge.lean:125:0: 'EqualityBridge.isoOfEq' does not depend on any axioms
+info: PerfectAssociation/EqualityBridge.lean:126:0: 'EqualityBridge.transport' does not depend on any axioms
+info: PerfectAssociation/EqualityBridge.lean:127:0: 'EqualityBridge.transport_refl' does not depend on any axioms
+info: PerfectAssociation/EqualityBridge.lean:128:0: 'EqualityBridge.transport_trans' does not depend on any axioms
+info: PerfectAssociation/EqualityBridge.lean:129:0: 'EqualityBridge.transport_symm' does not depend on any axioms
+info: PerfectAssociation/EqualityBridge.lean:130:0: 'EqualityBridge.transport_natural' does not depend on any axioms
+info: PerfectAssociation/EqualityBridge.lean:131:0: 'EqualityBridge.eq_iff_forall_iso' does not depend on any axioms
+info: PerfectAssociation/EqualityBridge.lean:132:0: 'EqualityBridge.selectedCarrierIso' does not depend on any axioms
+info: PerfectAssociation/EqualityBridge.lean:133:0: 'EqualityBridge.distinct_indices_selected_iso' does not depend on any axioms
+info: PerfectAssociation/EqualityBridge.lean:134:0: 'EqualityBridge.selected_iso_does_not_entail_equality' does not depend on any axioms
+ℹ [4/36] Built PerfectAssociation.Model (1.5s)
+info: PerfectAssociation/Model.lean:219:0: 'PerfectAssociation.observation_independent' does not depend on any axioms
+info: PerfectAssociation/Model.lean:220:0: 'PerfectAssociation.tables_independent' does not depend on any axioms
+info: PerfectAssociation/Model.lean:221:0: 'PerfectAssociation.observables_distinct' does not depend on any axioms
+info: PerfectAssociation/Model.lean:222:0: 'PerfectAssociation.intervention_invariant' does not depend on any axioms
+info: PerfectAssociation/Model.lean:223:0: 'PerfectAssociation.no_causation' does not depend on any axioms
+info: PerfectAssociation/Model.lean:224:0: 'PerfectAssociation.causation_one' does not depend on any axioms
+info: PerfectAssociation/Model.lean:225:0: 'PerfectAssociation.causation_iff_nonzero' depends on axioms: [propext]
+info: PerfectAssociation/Model.lean:226:0: 'PerfectAssociation.causalDecision_spec' depends on axioms: [propext]
+info: PerfectAssociation/Model.lean:227:0: 'PerfectAssociation.intervention_recovers_parameter' depends on axioms: [propext]
+info: PerfectAssociation/Model.lean:228:0: 'PerfectAssociation.two_interventions_identify' depends on axioms: [propext]
+info: PerfectAssociation/Model.lean:229:0: 'PerfectAssociation.no_response_hom' does not depend on any axioms
+info: PerfectAssociation/Model.lean:230:0: 'PerfectAssociation.no_response_iso' does not depend on any axioms
+info: PerfectAssociation/Model.lean:231:0: 'PerfectAssociation.no_response_iso_reverse' does not depend on any axioms
+info: PerfectAssociation/Model.lean:232:0: 'PerfectAssociation.reverse_response_hom' does not depend on any axioms
+info: PerfectAssociation/Model.lean:233:0: 'PerfectAssociation.response_hom_preserves_invariance' does not depend on any axioms
+info: PerfectAssociation/Model.lean:234:0: 'PerfectAssociation.no_response_hom_to_effect' depends on axioms: [propext]
+info: PerfectAssociation/Model.lean:235:0: 'PerfectAssociation.no_observational_identifier' does not depend on any axioms
+info: PerfectAssociation/Model.lean:236:0: 'PerfectAssociation.no_direct_causation' does not depend on any axioms
+info: PerfectAssociation/Model.lean:237:0: 'PerfectAssociation.no_causal_path' does not depend on any axioms
+ℹ [6/36] Built PerfectAssociation.LigoAnchors (1.6s)
+info: PerfectAssociation/LigoAnchors.lean:166:0: 'LigoAnchors.compare_blind' depends on axioms: [propext]
+info: PerfectAssociation/LigoAnchors.lean:167:0: 'LigoAnchors.compare_cannot_see_common_mode' does not depend on any axioms
+info: PerfectAssociation/LigoAnchors.lean:168:0: 'LigoAnchors.any_comparison_statistic_blind' depends on axioms: [propext]
+info: PerfectAssociation/LigoAnchors.lean:169:0: 'LigoAnchors.calibration_distance_fibre' depends on axioms: [propext]
+info: PerfectAssociation/LigoAnchors.lean:170:0: 'LigoAnchors.psi15_fibre' depends on axioms: [propext]
+info: PerfectAssociation/LigoAnchors.lean:171:0: 'LigoAnchors.psi15_fibre_all_frequencies' depends on axioms: [propext]
+info: PerfectAssociation/LigoAnchors.lean:172:0: 'LigoAnchors.waveform_cannot_classify_spin' does not depend on any axioms
+info: PerfectAssociation/LigoAnchors.lean:173:0: 'LigoAnchors.likelihood_fibre' does not depend on any axioms
+info: PerfectAssociation/LigoAnchors.lean:174:0: 'LigoAnchors.mixVar4_blind' depends on axioms: [propext]
+info: PerfectAssociation/LigoAnchors.lean:175:0: 'LigoAnchors.tableI_a1_mixture' does not depend on any axioms
+info: PerfectAssociation/LigoAnchors.lean:176:0: 'LigoAnchors.eta_swap' depends on axioms: [propext]
+info: PerfectAssociation/LigoAnchors.lean:177:0: 'LigoAnchors.gw150914_fold' does not depend on any axioms
+info: PerfectAssociation/LigoAnchors.lean:178:0: 'LigoAnchors.fold_identity_grid' does not depend on any axioms
+info: PerfectAssociation/LigoAnchors.lean:179:0: 'LigoAnchors.paper_prior_certainty' does not depend on any axioms
+info: PerfectAssociation/LigoAnchors.lean:180:0: 'LigoAnchors.open_prior_half' does not depend on any axioms
+info: PerfectAssociation/LigoAnchors.lean:181:0: 'LigoAnchors.same_data_different_beta' does not depend on any axioms
+info: PerfectAssociation/LigoAnchors.lean:182:0: 'LigoAnchors.fibre_prior_echo' depends on axioms: [propext]
+info: PerfectAssociation/LigoAnchors.lean:183:0: 'LigoAnchors.reference_shift_invisible' depends on axioms: [propext]
+info: PerfectAssociation/LigoAnchors.lean:184:0: 'LigoAnchors.anchor_identifies' depends on axioms: [propext]
+✔ [8/36] Built RequestProject.Equality (1.6s)
+ℹ [10/36] Built PerfectAssociation.Algebra (2.0s)
+info: PerfectAssociation/Algebra.lean:240:0: 'AssociationAlgebra.affine_defect' depends on axioms: [propext]
+info: PerfectAssociation/Algebra.lean:241:0: 'AssociationAlgebra.affine_hom_offset_zero' does not depend on any axioms
+info: PerfectAssociation/Algebra.lean:242:0: 'AssociationAlgebra.affine_hom_iff' depends on axioms: [propext]
+info: PerfectAssociation/Algebra.lean:243:0: 'AssociationAlgebra.affine_nonzero_offset_not_hom' does not depend on any axioms
+info: PerfectAssociation/Algebra.lean:244:0: 'AssociationAlgebra.affine_nonzero_offset_not_iso' does not depend on any axioms
+info: PerfectAssociation/Algebra.lean:245:0: 'AssociationAlgebra.seven_minus_four_not_hom' does not depend on any axioms
+info: PerfectAssociation/Algebra.lean:246:0: 'AssociationAlgebra.seven_minus_four_not_iso' does not depend on any axioms
+info: PerfectAssociation/Algebra.lean:247:0: 'AssociationAlgebra.affine_preserves_shifted_add' depends on axioms: [propext]
+info: PerfectAssociation/Algebra.lean:248:0: 'AssociationAlgebra.shifted_add_associative' depends on axioms: [propext]
+info: PerfectAssociation/Algebra.lean:249:0: 'AssociationAlgebra.shifted_add_identity' depends on axioms: [propext]
+info: PerfectAssociation/Algebra.lean:250:0: 'AssociationAlgebra.MagmaIso.ofEq' does not depend on any axioms
+info: PerfectAssociation/Algebra.lean:251:0: 'AssociationAlgebra.MagmaIso.injective' does not depend on any axioms
+info: PerfectAssociation/Algebra.lean:252:0: 'AssociationAlgebra.int_add_not_isomorphic_int_mul' does not depend on any axioms
+info: PerfectAssociation/Algebra.lean:253:0: 'AssociationAlgebra.int_add_ne_int_mul' does not depend on any axioms
+info: PerfectAssociation/Algebra.lean:254:0: 'AssociationAlgebra.identity_observation_not_hom' does not depend on any axioms
+info: PerfectAssociation/Algebra.lean:255:0: 'AssociationAlgebra.no_hom_from_two_samples' does not depend on any axioms
+info: PerfectAssociation/Algebra.lean:256:0: 'AssociationAlgebra.no_iso_fits_supplied_observations' does not depend on any axioms
+info: PerfectAssociation/Algebra.lean:257:0: 'AssociationAlgebra.no_hom_fits_supplied_observations' does not depend on any axioms
+info: PerfectAssociation/Algebra.lean:258:0: 'AssociationAlgebra.identity_additive_iso' does not depend on any axioms
+ℹ [12/36] Built PerfectAssociation.LigoCongruence (1.0s)
+info: PerfectAssociation/LigoCongruence.lean:496:0: 'LigoCongruence.invalid_not_valid' does not depend on any axioms
+info: PerfectAssociation/LigoCongruence.lean:497:0: 'LigoCongruence.valid_iff_not_invalid' does not depend on any axioms
+info: PerfectAssociation/LigoCongruence.lean:498:0: 'LigoCongruence.factor_valid' does not depend on any axioms
+info: PerfectAssociation/LigoCongruence.lean:499:0: 'LigoCongruence.invalid_no_factor' does not depend on any axioms
+info: PerfectAssociation/LigoCongruence.lean:500:0: 'LigoCongruence.valid_factor' does not depend on any axioms
+info: PerfectAssociation/LigoCongruence.lean:501:0: 'LigoCongruence.valid_iff_factor' does not depend on any axioms
+info: PerfectAssociation/LigoCongruence.lean:502:0: 'LigoCongruence.no_repair' does not depend on any axioms
+info: PerfectAssociation/LigoCongruence.lean:503:0: 'LigoCongruence.invalid_postcompose' does not depend on any axioms
+info: PerfectAssociation/LigoCongruence.lean:504:0: 'LigoCongruence.chain_blind' does not depend on any axioms
+info: PerfectAssociation/LigoCongruence.lean:505:0: 'LigoCongruence.ker_pair' does not depend on any axioms
+info: PerfectAssociation/LigoCongruence.lean:506:0: 'LigoCongruence.anchor_valid' does not depend on any axioms
+info: PerfectAssociation/LigoCongruence.lean:507:0: 'LigoCongruence.posterior_odds_frozen' depends on axioms: [propext]
+info: PerfectAssociation/LigoCongruence.lean:508:0: 'LigoCongruence.within_class_prior_echo' depends on axioms: [propext]
+info: PerfectAssociation/LigoCongruence.lean:509:0: 'LigoCongruence.within_class_prior_echo_norm' depends on axioms: [propext]
+info: PerfectAssociation/LigoCongruence.lean:510:0: 'LigoCongruence.psi15_fibre' depends on axioms: [propext]
+info: PerfectAssociation/LigoCongruence.lean:511:0: 'LigoCongruence.psi15_orbit' depends on axioms: [propext]
+info: PerfectAssociation/LigoCongruence.lean:512:0: 'LigoCongruence.psi15_eq_iff' depends on axioms: [propext]
+info: PerfectAssociation/LigoCongruence.lean:513:0: 'LigoCongruence.phase15_fibre' depends on axioms: [propext]
+info: PerfectAssociation/LigoCongruence.lean:514:0: 'LigoCongruence.waveform_invalid_for_spin' depends on axioms: [propext]
+info: PerfectAssociation/LigoCongruence.lean:515:0: 'LigoCongruence.psi15_invalid_for_spin' depends on axioms: [propext]
+info: PerfectAssociation/LigoCongruence.lean:516:0: 'LigoCongruence.sumTo_zero_fn' does not depend on any axioms
+info: PerfectAssociation/LigoCongruence.lean:517:0: 'LigoCongruence.sumTo_one_fn' does not depend on any axioms
+info: PerfectAssociation/LigoCongruence.lean:518:0: 'LigoCongruence.cons_congr' does not depend on any axioms
+info: PerfectAssociation/LigoCongruence.lean:519:0: 'LigoCongruence.diffs_shift' depends on axioms: [propext]
+info: PerfectAssociation/LigoCongruence.lean:520:0: 'LigoCongruence.pairwise_blind_list' depends on axioms: [propext]
+info: PerfectAssociation/LigoCongruence.lean:521:0: 'LigoCongruence.diffs_const' depends on axioms: [propext]
+info: PerfectAssociation/LigoCongruence.lean:522:0: 'LigoCongruence.pairwise_invalid_for_common_mode_list' depends on axioms: [propext]
+info: PerfectAssociation/LigoCongruence.lean:523:0: 'LigoCongruence.pairwise_blind' depends on axioms: [propext]
+info: PerfectAssociation/LigoCongruence.lean:524:0: 'LigoCongruence.pairwise_invalid_for_common_mode' does not depend on any axioms
+info: PerfectAssociation/LigoCongruence.lean:525:0: 'LigoCongruence.mixVar4_blind' depends on axioms: [propext]
+info: PerfectAssociation/LigoCongruence.lean:526:0: 'LigoCongruence.mixVar4_invalid_for_location' depends on axioms: [propext]
+info: PerfectAssociation/LigoCongruence.lean:527:0: 'LigoCongruence.parallelogram' depends on axioms: [propext]
+info: PerfectAssociation/LigoCongruence.lean:528:0: 'LigoCongruence.mixVar4_from_moments' depends on axioms: [propext]
+info: PerfectAssociation/LigoCongruence.lean:529:0: 'LigoCongruence.eta_swap' depends on axioms: [propext]
+info: PerfectAssociation/LigoCongruence.lean:530:0: 'LigoCongruence.prod_mk_congr' does not depend on any axioms
+info: PerfectAssociation/LigoCongruence.lean:531:0: 'LigoCongruence.etaPair_swap' depends on axioms: [propext]
+info: PerfectAssociation/LigoCongruence.lean:532:0: 'LigoCongruence.eta_invalid_for_q' does not depend on any axioms
+info: PerfectAssociation/LigoCongruence.lean:533:0: 'LigoCongruence.eta_invalid_of_ne' depends on axioms: [propext]
+info: PerfectAssociation/LigoCongruence.lean:534:0: 'LigoCongruence.four_mul_eq' depends on axioms: [propext]
+info: PerfectAssociation/LigoCongruence.lean:535:0: 'LigoCongruence.sq_diff_core' depends on axioms: [propext]
+info: PerfectAssociation/LigoCongruence.lean:536:0: 'LigoCongruence.eta_fold' depends on axioms: [propext]
+info: PerfectAssociation/LigoCongruence.lean:537:0: 'LigoCongruence.sysVar2_blind' depends on axioms: [propext]
+info: PerfectAssociation/LigoCongruence.lean:538:0: 'LigoCongruence.uncertainty_triple_invalid_for_shared_error' depends on axioms: [propext]
+info: PerfectAssociation/LigoCongruence.lean:539:0: 'LigoCongruence.spin_triangle' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCongruence.lean:540:0: 'LigoCongruence.spin_gap_invalid_for_bias' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCongruence.lean:541:0: 'LigoCongruence.fold_shift' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCongruence.lean:542:0: 'LigoCongruence.fold_flat_at_equal_mass' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCongruence.lean:543:0: 'LigoCongruence.gw150914_fold_shift' does not depend on any axioms
+info: PerfectAssociation/LigoCongruence.lean:544:0: 'LigoCongruence.lockpoint_any_symmetric' does not depend on any axioms
+info: PerfectAssociation/LigoCongruence.lean:545:0: 'LigoCongruence.massSpinObs_symm' depends on axioms: [propext]
+info: PerfectAssociation/LigoCongruence.lean:546:0: 'LigoCongruence.lockpoint_invalid_for_primary_spin' depends on axioms: [propext]
+info: PerfectAssociation/LigoCongruence.lean:547:0: 'LigoCongruence.spin_attribution_signal' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCongruence.lean:548:0: 'LigoCongruence.gw150914_attribution_weight' does not depend on any axioms
+info: PerfectAssociation/LigoCongruence.lean:549:0: 'LigoCongruence.strain_statistic_invalid_for_cause' does not depend on any axioms
+info: PerfectAssociation/LigoCongruence.lean:550:0: 'LigoCongruence.detection_odds_frozen' depends on axioms: [propext]
+info: PerfectAssociation/LigoCongruence.lean:551:0: 'LigoCongruence.pem_fails_on_uncoupled' depends on axioms: [propext]
+info: PerfectAssociation/LigoCongruence.lean:552:0: 'LigoCongruence.pem_repairs_when_coupled' depends on axioms: [propext]
+info: PerfectAssociation/LigoCongruence.lean:553:0: 'LigoCongruence.every_procedure_errs' does not depend on any axioms
+info: PerfectAssociation/LigoCongruence.lean:554:0: 'LigoCongruence.conservation_of_distinction' does not depend on any axioms
+info: PerfectAssociation/LigoCongruence.lean:555:0: 'LigoCongruence.detection_pipeline_blind' does not depend on any axioms
+info: PerfectAssociation/LigoCongruence.lean:556:0: 'LigoCongruence.detection_rule_errs' does not depend on any axioms
+info: PerfectAssociation/LigoCongruence.lean:557:0: 'LigoCongruence.pe_pipeline_blind' depends on axioms: [propext]
+info: PerfectAssociation/LigoCongruence.lean:558:0: 'LigoCongruence.lockpoint_pipeline_blind' does not depend on any axioms
+ℹ [14/36] Built PerfectAssociation.Statistics (2.4s)
+info: PerfectAssociation/Statistics.lean:254:0: 'PerfectAssociation.Q_difference' depends on axioms: [propext]
+info: PerfectAssociation/Statistics.lean:255:0: 'PerfectAssociation.x_difference' depends on axioms: [propext]
+info: PerfectAssociation/Statistics.lean:256:0: 'PerfectAssociation.difference_determinant_zero' depends on axioms: [propext]
+info: PerfectAssociation/Statistics.lean:257:0: 'PerfectAssociation.observational_line' depends on axioms: [propext]
+info: PerfectAssociation/Statistics.lean:259:0: 'PerfectAssociation.foldl_accumulator' depends on axioms: [propext]
+info: PerfectAssociation/Statistics.lean:260:0: 'PerfectAssociation.total_add' depends on axioms: [propext]
+info: PerfectAssociation/Statistics.lean:261:0: 'PerfectAssociation.total_scale' depends on axioms: [propext]
+info: PerfectAssociation/Statistics.lean:262:0: 'PerfectAssociation.total_const' depends on axioms: [propext]
+info: PerfectAssociation/Statistics.lean:263:0: 'PerfectAssociation.total_affine' depends on axioms: [propext]
+info: PerfectAssociation/Statistics.lean:264:0: 'PerfectAssociation.cross_affine' depends on axioms: [propext]
+info: PerfectAssociation/Statistics.lean:265:0: 'PerfectAssociation.covariance_affine_algebra' depends on axioms: [propext]
+info: PerfectAssociation/Statistics.lean:266:0: 'PerfectAssociation.centered_affine' depends on axioms: [propext]
+info: PerfectAssociation/Statistics.lean:267:0: 'PerfectAssociation.spread_affine' depends on axioms: [propext]
+info: PerfectAssociation/Statistics.lean:268:0: 'PerfectAssociation.centered_Qx_population' depends on axioms: [propext]
+info: PerfectAssociation/Statistics.lean:269:0: 'PerfectAssociation.spread_Q_population' depends on axioms: [propext]
+info: PerfectAssociation/Statistics.lean:270:0: 'PerfectAssociation.spread_x_population' depends on axioms: [propext]
+info: PerfectAssociation/Statistics.lean:271:0: 'PerfectAssociation.perfect_correlation_population' depends on axioms: [propext]
+info: PerfectAssociation/Statistics.lean:273:0: (210, 2870, 13300)
+info: PerfectAssociation/Statistics.lean:274:0: (480, 14180, 53200)
+info: PerfectAssociation/Statistics.lean:275:0: (1390, 129190, 651700)
+info: PerfectAssociation/Statistics.lean:276:0: (42670, 186200, true)
+info: PerfectAssociation/Statistics.lean:278:0: 'PerfectAssociation.exact_moments' does not depend on any axioms
+info: PerfectAssociation/Statistics.lean:279:0: 'PerfectAssociation.S_changes' does not depend on any axioms
+info: PerfectAssociation/Statistics.lean:280:0: 'PerfectAssociation.covariance_scales' does not depend on any axioms
+info: PerfectAssociation/Statistics.lean:281:0: 'PerfectAssociation.variance_scales' does not depend on any axioms
+info: PerfectAssociation/Statistics.lean:282:0: 'PerfectAssociation.perfect_correlation' does not depend on any axioms
+info: PerfectAssociation/Statistics.lean:283:0: 'PerfectAssociation.positive_exact_certificate' does not depend on any axioms
+info: PerfectAssociation/Statistics.lean:284:0: 'PerfectAssociation.Q_ne_x' does not depend on any axioms
+info: PerfectAssociation/Statistics.lean:285:0: 'PerfectAssociation.distinct_on_population' does not depend on any axioms
+info: PerfectAssociation/Statistics.lean:286:0: 'PerfectAssociation.exact_observational_line' does not depend on any axioms
+info: PerfectAssociation/Statistics.lean:287:0: 'PerfectAssociation.pairwise_source_differences' does not depend on any axioms
+✔ [16/36] Built RequestProject.Measurement (1.2s)
+ℹ [18/36] Built PerfectAssociation.LigoCalibration (1.7s)
+info: PerfectAssociation/LigoCalibration.lean:337:0: 'LigoCalibration.faithful_substitutes' does not depend on any axioms
+info: PerfectAssociation/LigoCalibration.lean:338:0: 'LigoCalibration.substitutes_faithful' does not depend on any axioms
+info: PerfectAssociation/LigoCalibration.lean:339:0: 'LigoCalibration.faithful_chains' does not depend on any axioms
+info: PerfectAssociation/LigoCalibration.lean:340:0: 'LigoCalibration.chains_faithful' does not depend on any axioms
+info: PerfectAssociation/LigoCalibration.lean:341:0: 'LigoCalibration.faithful_valid_for_all' does not depend on any axioms
+info: PerfectAssociation/LigoCalibration.lean:342:0: 'LigoCalibration.faithful_iff_valid_id' does not depend on any axioms
+info: PerfectAssociation/LigoCalibration.lean:343:0: 'LigoCalibration.faithful_characterisation' does not depend on any axioms
+info: PerfectAssociation/LigoCalibration.lean:344:0: 'LigoCalibration.faithful_iff_preserves_ne' does not depend on any axioms
+info: PerfectAssociation/LigoCalibration.lean:345:0: 'LigoCalibration.substitution_fails' does not depend on any axioms
+info: PerfectAssociation/LigoCalibration.lean:346:0: 'LigoCalibration.separating_property' does not depend on any axioms
+info: PerfectAssociation/LigoCalibration.lean:347:0: 'LigoCalibration.chain_fails' does not depend on any axioms
+info: PerfectAssociation/LigoCalibration.lean:348:0: 'LigoCalibration.merged_pair_invalid' does not depend on any axioms
+info: PerfectAssociation/LigoCalibration.lean:349:0: 'LigoCalibration.chain_unfaithful' does not depend on any axioms
+info: PerfectAssociation/LigoCalibration.lean:350:0: 'LigoCalibration.faithful_comp' does not depend on any axioms
+info: PerfectAssociation/LigoCalibration.lean:351:0: 'LigoCalibration.iso_faithful' does not depend on any axioms
+info: PerfectAssociation/LigoCalibration.lean:352:0: 'LigoCalibration.iso_preserves_ne' does not depend on any axioms
+info: PerfectAssociation/LigoCalibration.lean:353:0: 'LigoCalibration.iso_reflects_ne' does not depend on any axioms
+info: PerfectAssociation/LigoCalibration.lean:354:0: 'LigoCalibration.isoTrans' does not depend on any axioms
+info: PerfectAssociation/LigoCalibration.lean:355:0: 'LigoCalibration.faithful_iff_carriers_detect_equality' does not depend on any axioms
+info: PerfectAssociation/LigoCalibration.lean:356:0: 'LigoCalibration.carriers_gap' does not depend on any axioms
+info: PerfectAssociation/LigoCalibration.lean:357:0: 'LigoCalibration.psi15_not_faithful' depends on axioms: [propext]
+info: PerfectAssociation/LigoCalibration.lean:358:0: 'LigoCalibration.waveform_carriers_iso_states_differ' depends on axioms: [propext]
+info: PerfectAssociation/LigoCalibration.lean:359:0: 'LigoCalibration.affine_unit_gain_faithful' depends on axioms: [propext]
+info: PerfectAssociation/LigoCalibration.lean:360:0: 'LigoCalibration.affine_zero_gain_not_faithful' depends on axioms: [propext]
+info: PerfectAssociation/LigoCalibration.lean:361:0: 'LigoCalibration.affine_faithful_iff' depends on axioms: [propext]
+info: PerfectAssociation/LigoCalibration.lean:362:0: 'LigoCalibration.faithful_hom_independent' depends on axioms: [propext]
+info: PerfectAssociation/LigoCalibration.lean:363:0: 'LigoCalibration.offset_preserves_differences' depends on axioms: [propext]
+info: PerfectAssociation/LigoCalibration.lean:364:0: 'LigoCalibration.translationIso' depends on axioms: [propext]
+info: PerfectAssociation/LigoCalibration.lean:365:0: 'LigoCalibration.offset_iso_not_hom' depends on axioms: [propext]
+info: PerfectAssociation/LigoCalibration.lean:366:0: 'LigoCalibration.affine_comp' depends on axioms: [propext]
+info: PerfectAssociation/LigoCalibration.lean:367:0: 'LigoCalibration.hom_comp' does not depend on any axioms
+info: PerfectAssociation/LigoCalibration.lean:368:0: 'LigoCalibration.affine_defect_everywhere' depends on axioms: [propext]
+info: PerfectAssociation/LigoCalibration.lean:369:0: 'LigoCalibration.offset_scale_checkpoint' does not depend on any axioms
+info: PerfectAssociation/LigoCalibration.lean:370:0: 'LigoCalibration.within_refl' does not depend on any axioms
+info: PerfectAssociation/LigoCalibration.lean:371:0: 'LigoCalibration.within_symm' does not depend on any axioms
+info: PerfectAssociation/LigoCalibration.lean:372:0: 'LigoCalibration.within_not_transitive' does not depend on any axioms
+info: PerfectAssociation/LigoCalibration.lean:373:0: 'LigoCalibration.within_not_a_kernel' does not depend on any axioms
+info: PerfectAssociation/LigoCalibration.lean:374:0: 'LigoCalibration.perturbation_exact' does not depend on any axioms
+info: PerfectAssociation/LigoCalibration.lean:375:0: 'LigoCalibration.margin_chain_at_scale' does not depend on any axioms
+info: PerfectAssociation/LigoCalibration.lean:376:0: 'LigoCalibration.one_anchor_invalid_for_gain' depends on axioms: [propext]
+info: PerfectAssociation/LigoCalibration.lean:377:0: 'LigoCalibration.one_anchor_invalid_for_offset' depends on axioms: [propext]
+info: PerfectAssociation/LigoCalibration.lean:378:0: 'LigoCalibration.zero_anchor_identifies_offset' depends on axioms: [propext]
+info: PerfectAssociation/LigoCalibration.lean:379:0: 'LigoCalibration.zero_unit_anchors_valid' depends on axioms: [propext]
+✔ [20/36] Built PerfectAssociation (2.3s)
+⚠ [22/36] Built PerfectAssociation.LigoCompression (2.4s)
+warning: PerfectAssociation/LigoCompression.lean:218:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: PerfectAssociation/LigoCompression.lean:220:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: PerfectAssociation/LigoCompression.lean:390:28: This simp argument is unused:
+  Int.add_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Int.mul_add, Int.mul_sub, Int.sub_mul, Int.mul_assoc, Int.mul_comm, Int.mul_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PerfectAssociation/LigoCompression.lean:390:67: This simp argument is unused:
+  Int.mul_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Int.mul_add, Int.add_mul, Int.mul_sub, Int.sub_mul, Int.mul_comm, Int.mul_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PerfectAssociation/LigoCompression.lean:390:82: This simp argument is unused:
+  Int.mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Int.mul_add, Int.add_mul, Int.mul_sub, Int.sub_mul, Int.mul_assoc, Int.mul_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PerfectAssociation/LigoCompression.lean:614:26: This simp argument is unused:
+  Int.add_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Int.mul_add, Int.mul_sub, Int.sub_mul, Int.mul_assoc, Int.mul_comm, Int.mul_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PerfectAssociation/LigoCompression.lean:614:52: This simp argument is unused:
+  Int.sub_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Int.mul_add, Int.add_mul, Int.mul_sub, Int.mul_assoc, Int.mul_comm, Int.mul_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PerfectAssociation/LigoCompression.lean:614:65: This simp argument is unused:
+  Int.mul_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Int.mul_add, Int.add_mul, Int.mul_sub, Int.sub_mul, Int.mul_comm, Int.mul_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PerfectAssociation/LigoCompression.lean:619:26: This simp argument is unused:
+  Int.add_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Int.mul_add, Int.mul_sub, Int.sub_mul, Int.mul_assoc, Int.mul_comm, Int.mul_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PerfectAssociation/LigoCompression.lean:619:52: This simp argument is unused:
+  Int.sub_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Int.mul_add, Int.add_mul, Int.mul_sub, Int.mul_assoc, Int.mul_comm, Int.mul_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PerfectAssociation/LigoCompression.lean:619:65: This simp argument is unused:
+  Int.mul_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Int.mul_add, Int.add_mul, Int.mul_sub, Int.sub_mul, Int.mul_comm, Int.mul_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PerfectAssociation/LigoCompression.lean:701:26: This simp argument is unused:
+  Int.sub_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Int.mul_sub, Int.mul_assoc, Int.mul_comm, Int.mul_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PerfectAssociation/LigoCompression.lean:701:39: This simp argument is unused:
+  Int.mul_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Int.mul_sub, Int.sub_mul, Int.mul_comm, Int.mul_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PerfectAssociation/LigoCompression.lean:701:54: This simp argument is unused:
+  Int.mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Int.mul_sub, Int.sub_mul, Int.mul_assoc, Int.mul_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PerfectAssociation/LigoCompression.lean:707:26: This simp argument is unused:
+  Int.sub_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Int.mul_sub, Int.mul_assoc, Int.mul_comm, Int.mul_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PerfectAssociation/LigoCompression.lean:707:39: This simp argument is unused:
+  Int.mul_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Int.mul_sub, Int.sub_mul, Int.mul_comm, Int.mul_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PerfectAssociation/LigoCompression.lean:715:26: This simp argument is unused:
+  Int.sub_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Int.mul_sub, Int.mul_assoc, Int.mul_comm, Int.mul_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PerfectAssociation/LigoCompression.lean:715:39: This simp argument is unused:
+  Int.mul_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Int.mul_sub, Int.sub_mul, Int.mul_comm, Int.mul_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PerfectAssociation/LigoCompression.lean:822:28: This simp argument is unused:
+  Int.mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Int.mul_assoc, Int.mul_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: PerfectAssociation/LigoCompression.lean:852:0: 'LigoCompression.frechet_bounds' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCompression.lean:853:0: 'LigoCompression.frechet_move' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCompression.lean:854:0: 'LigoCompression.slide_fibre_coordinate' depends on axioms: [propext]
+info: PerfectAssociation/LigoCompression.lean:855:0: 'LigoCompression.slides_invalid_for_zeroLag' does not depend on any axioms
+info: PerfectAssociation/LigoCompression.lean:856:0: 'LigoCompression.slides_any_statistic_invalid' does not depend on any axioms
+info: PerfectAssociation/LigoCompression.lean:857:0: 'LigoCompression.marginal_statistics_invalid' does not depend on any axioms
+info: PerfectAssociation/LigoCompression.lean:858:0: 'LigoCompression.slides_valid_on_independence' does not depend on any axioms
+info: PerfectAssociation/LigoCompression.lean:859:0: 'LigoCompression.anchor_repairs_iff' depends on axioms: [propext]
+info: PerfectAssociation/LigoCompression.lean:860:0: 'LigoCompression.slide_estimate_not_a_bound' does not depend on any axioms
+info: PerfectAssociation/LigoCompression.lean:861:0: 'LigoCompression.frechet_ends' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCompression.lean:862:0: 'LigoCompression.coincident_end_excess' depends on axioms: [propext]
+info: PerfectAssociation/LigoCompression.lean:863:0: 'LigoCompression.gw150914_frechet_scale' does not depend on any axioms
+info: PerfectAssociation/LigoCompression.lean:864:0: 'LigoCompression.gw150914_slide_ledger' does not depend on any axioms
+info: PerfectAssociation/LigoCompression.lean:865:0: 'LigoCompression.chebyshev' does not depend on any axioms
+info: PerfectAssociation/LigoCompression.lean:866:0: 'LigoCompression.psd_invalid_for_tail' does not depend on any axioms
+info: PerfectAssociation/LigoCompression.lean:867:0: 'LigoCompression.chebyshev_interval_5p1' does not depend on any axioms
+info: PerfectAssociation/LigoCompression.lean:868:0: 'LigoCompression.tail_max_5p1' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCompression.lean:869:0: 'LigoCompression.overall_invalid_for_bma' does not depend on any axioms
+info: PerfectAssociation/LigoCompression.lean:870:0: 'LigoCompression.bma_witness_not_rescaled' does not depend on any axioms
+info: PerfectAssociation/LigoCompression.lean:871:0: 'LigoCompression.bma_shift' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCompression.lean:872:0: 'LigoCompression.gw150914_m1_bma_shift' does not depend on any axioms
+info: PerfectAssociation/LigoCompression.lean:873:0: 'LigoCompression.sigmaSys2_blind' depends on axioms: [propext]
+info: PerfectAssociation/LigoCompression.lean:874:0: 'LigoCompression.sigmaSys2_invalid_for_common_error' depends on axioms: [propext]
+info: PerfectAssociation/LigoCompression.lean:875:0: 'LigoCompression.firstSample_equivariant' does not depend on any axioms
+info: PerfectAssociation/LigoCompression.lean:876:0: 'LigoCompression.sigmaSys_samples_blind' depends on axioms: [propext]
+info: PerfectAssociation/LigoCompression.lean:877:0: 'LigoCompression.sigmaSys_samples_invalid' depends on axioms: [propext]
+info: PerfectAssociation/LigoCompression.lean:878:0: 'LigoCompression.tableI_m1_sigmaSys' does not depend on any axioms
+info: PerfectAssociation/LigoCompression.lean:879:0: 'LigoCompression.peval_padd' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCompression.lean:880:0: 'LigoCompression.peval_pscale' depends on axioms: [propext]
+info: PerfectAssociation/LigoCompression.lean:881:0: 'LigoCompression.peval_pquot' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCompression.lean:882:0: 'LigoCompression.length_padd_le' does not depend on any axioms
+info: PerfectAssociation/LigoCompression.lean:883:0: 'LigoCompression.length_pscale' does not depend on any axioms
+info: PerfectAssociation/LigoCompression.lean:884:0: 'LigoCompression.length_pquot_le_self' does not depend on any axioms
+info: PerfectAssociation/LigoCompression.lean:885:0: 'LigoCompression.length_pquot_cons' does not depend on any axioms
+info: PerfectAssociation/LigoCompression.lean:886:0: 'LigoCompression.length_pquot_pred' does not depend on any axioms
+info: PerfectAssociation/LigoCompression.lean:887:0: 'LigoCompression.vanish_everywhere' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCompression.lean:888:0: 'LigoCompression.map_eq_of_mem' does not depend on any axioms
+info: PerfectAssociation/LigoCompression.lean:889:0: 'LigoCompression.eq_of_map_eq' does not depend on any axioms
+info: PerfectAssociation/LigoCompression.lean:890:0: 'LigoCompression.anchors_valid' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCompression.lean:891:0: 'LigoCompression.peval_nodePoly_cons' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCompression.lean:892:0: 'LigoCompression.nodePoly_zero' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCompression.lean:893:0: 'LigoCompression.nodePoly_ne_zero' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCompression.lean:894:0: 'LigoCompression.peval_nodePoly' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCompression.lean:895:0: 'LigoCompression.length_nodePoly' does not depend on any axioms
+info: PerfectAssociation/LigoCompression.lean:896:0: 'LigoCompression.anchors_invalid_one_degree_up' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCompression.lean:897:0: 'LigoCompression.anchor_threshold' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCompression.lean:898:0: 'LigoCompression.finite_anchors_invalid' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCompression.lean:899:0: 'LigoCompression.double_blind' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCompression.lean:900:0: 'LigoCompression.nineteen_nodes' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCompression.lean:901:0: 'LigoCompression.adj_fst' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCompression.lean:902:0: 'LigoCompression.adj_snd' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCompression.lean:903:0: 'LigoCompression.respond_zero' depends on axioms: [propext]
+info: PerfectAssociation/LigoCompression.lean:904:0: 'LigoCompression.respond_faithful_of_det' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCompression.lean:905:0: 'LigoCompression.respond_kernel_of_det_zero' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCompression.lean:906:0: 'LigoCompression.network_valid_iff_det' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCompression.lean:907:0: 'LigoCompression.coaligned_det' depends on axioms: [propext]
+info: PerfectAssociation/LigoCompression.lean:908:0: 'LigoCompression.coaligned_not_valid' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCompression.lean:909:0: 'LigoCompression.dot_cross_left' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCompression.lean:910:0: 'LigoCompression.dot_cross_right' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCompression.lean:911:0: 'LigoCompression.dot_cross_swap' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCompression.lean:912:0: 'LigoCompression.kernel_of_cross_zero' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCompression.lean:913:0: 'LigoCompression.cross_basis' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCompression.lean:914:0: 'LigoCompression.two_detectors_three_modes' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCompression.lean:915:0: 'LigoCompression.two_detectors_invalid_for_polarization' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoCompression.lean:916:0: 'LigoCompression.centered_congr' depends on axioms: [propext]
+info: PerfectAssociation/LigoCompression.lean:917:0: 'LigoCompression.proportional_streams_perfect' depends on axioms: [propext]
+info: PerfectAssociation/LigoCompression.lean:918:0: 'LigoCompression.proportional_minors_vanish' depends on axioms: [propext]
+info: PerfectAssociation/LigoCompression.lean:919:0: 'LigoCompression.coaligned_streams' depends on axioms: [propext]
+info: PerfectAssociation/LigoCompression.lean:920:0: 'LigoCompression.coaligned_perfect_association' depends on axioms: [propext]
+info: PerfectAssociation/LigoCompression.lean:921:0: 'LigoCompression.ligo_compression_obstructions' depends on axioms: [propext, Quot.sound]
+✔ [24/36] Built RequestProject.Examples (2.3s)
+⚠ [26/36] Built RequestProject.LIGO_specious_measures (2.4s)
+warning: RequestProject/LIGO_specious_measures.lean:399:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: RequestProject/LIGO_specious_measures.lean:404:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: RequestProject/LIGO_specious_measures.lean:730:25: Variable name `hP90` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hP90
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [28/36] Built PerfectAssociation.LigoNullSpace (4.2s)
+warning: PerfectAssociation/LigoNullSpace.lean:498:15: This simp argument is unused:
+  Int.mul_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Int.mul_left_comm, Int.mul_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: PerfectAssociation/LigoNullSpace.lean:1325:0: 'LigoNullSpace.sd_injective' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoNullSpace.lean:1326:0: 'LigoNullSpace.sum_anchors_difference' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoNullSpace.lean:1327:0: 'LigoNullSpace.hanford_sd' does not depend on any axioms
+info: PerfectAssociation/LigoNullSpace.lean:1328:0: 'LigoNullSpace.hanford_levels_merged' does not depend on any axioms
+info: PerfectAssociation/LigoNullSpace.lean:1329:0: 'LigoNullSpace.tableI_q_common_line' does not depend on any axioms
+info: PerfectAssociation/LigoNullSpace.lean:1330:0: 'LigoNullSpace.projector_squares' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoNullSpace.lean:1331:0: 'LigoNullSpace.linT_valid_iff' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoNullSpace.lean:1332:0: 'LigoNullSpace.no_bound_from_difference' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoNullSpace.lean:1333:0: 'LigoNullSpace.no_finite_bound' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoNullSpace.lean:1334:0: 'LigoNullSpace.difference_estimator_unbounded' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoNullSpace.lean:1335:0: 'LigoNullSpace.information_hierarchy' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoNullSpace.lean:1336:0: 'LigoNullSpace.hanford_confounding' does not depend on any axioms
+info: PerfectAssociation/LigoNullSpace.lean:1337:0: 'LigoNullSpace.anchor_valid_iff' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoNullSpace.lean:1338:0: 'LigoNullSpace.anchor_inversion' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoNullSpace.lean:1339:0: 'LigoNullSpace.fisher_block_det' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoNullSpace.lean:1340:0: 'LigoNullSpace.fisher_singular_iff' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoNullSpace.lean:1341:0: 'LigoNullSpace.fisher_null' does not depend on any axioms
+info: PerfectAssociation/LigoNullSpace.lean:1342:0: 'LigoNullSpace.fisher_anchored' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoNullSpace.lean:1343:0: 'LigoNullSpace.d_channel_tests_blind' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoNullSpace.lean:1344:0: 'LigoNullSpace.level_posterior_odds_frozen' depends on axioms: [propext]
+info: PerfectAssociation/LigoNullSpace.lean:1345:0: 'LigoNullSpace.prior_coupling_moves_blind_coordinate' does not depend on any axioms
+info: PerfectAssociation/LigoNullSpace.lean:1346:0: 'LigoNullSpace.ks_flag_not_function_of_likelihood' does not depend on any axioms
+info: PerfectAssociation/LigoNullSpace.lean:1347:0: 'LigoNullSpace.calibration_prior_transport' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoNullSpace.lean:1348:0: 'LigoNullSpace.hanford_transport' does not depend on any axioms
+info: PerfectAssociation/LigoNullSpace.lean:1349:0: 'LigoNullSpace.common_error_variance_family' does not depend on any axioms
+info: PerfectAssociation/LigoNullSpace.lean:1350:0: 'LigoNullSpace.many_channels_blind' depends on axioms: [propext]
+info: PerfectAssociation/LigoNullSpace.lean:1351:0: 'LigoNullSpace.audit_invalid' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoNullSpace.lean:1352:0: 'LigoNullSpace.audit_exact' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoNullSpace.lean:1353:0: 'LigoNullSpace.redundant_rows_no_repair' does not depend on any axioms
+info: PerfectAssociation/LigoNullSpace.lean:1354:0: 'LigoNullSpace.anchored_suite_valid_for_P' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoNullSpace.lean:1355:0: 'LigoNullSpace.each_anchor_necessary' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoNullSpace.lean:1356:0: 'LigoNullSpace.repeated_agreement_invalid' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoNullSpace.lean:1357:0: 'LigoNullSpace.hanford_suite_witness' does not depend on any axioms
+info: PerfectAssociation/LigoNullSpace.lean:1358:0: 'LigoNullSpace.statistical_pipeline_invalidations' does not depend on any axioms
+info: PerfectAssociation/LigoNullSpace.lean:1359:0: 'LigoNullSpace.difference_proxy_carries_no_common_error' depends on axioms: [propext]
+info: PerfectAssociation/LigoNullSpace.lean:1360:0: 'LigoNullSpace.calibration_marginalisation_transports_bias' depends on axioms: [propext, Quot.sound]
+info: PerfectAssociation/LigoNullSpace.lean:1361:0: 'LigoNullSpace.ks_test_not_informativeness' does not depend on any axioms
+info: PerfectAssociation/LigoNullSpace.lean:1362:0: 'LigoNullSpace.ligo_null_space_invalidation' depends on axioms: [propext, Quot.sound]
+⚠ [30/36] Built RequestProject.LIGO_published_ledger (853ms)
+warning: RequestProject/LIGO_published_ledger.lean:237:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: RequestProject/LIGO_published_ledger.lean:240:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: RequestProject/LIGO_published_ledger.lean:243:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [32/36] Built VerificationCorrections (726ms)
+✔ [34/36] Built VerificationAll (850ms)
+Build completed successfully (36 jobs).
