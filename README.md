@@ -1,13 +1,17 @@
 # LIGO — Formal Lean Kernel Invalidation
 
-**Joseph M. Gerrety · Independent Mathematical Researcher**  
-*Exact Measurement, Common Error, and Information Recovery* · 23 November 2026
+**Joseph M. Gerrety · **Researcher**  
+*Measure, Common Error, and Information Recovery* · 23 November 2026
 
-When a gravitational-wave explanation and an explanation without a gravitational wave predict the same observable and assign identical likelihoods to every possible dataset, LIGO cannot use those data alone to establish which explanation produced the observation. The same reading must receive the same decision. Equal likelihoods also leave the odds between these two explanations at their prior ratio wherever those odds are defined.
+DISCRIPTION:
 
-A verified reference event can establish how an instrument and its surroundings behaved under known conditions. Using it to interpret a later event requires identifying which relationship carries over. In this work that requirement has a precise form. The added reference must distinguish every pair of states that the existing measurement merges and whose values of the target differ. A reference that changes with the same unknown offset can leave the ambiguity intact.
+When a gravitational wave explanation and a no-gravitational wave explanation yield identical predictions and identical likelihoods for every possible dataset, LIGO cannot use those data alone to establish that a gravitational wave occurred.
+Calibration and probability are based upon a condition of a reference of a previous verifiable known event. The event itself and importantly the behavior of related elements surrounding can then offer attunement of what's more likely to happen the next time. Without this transitive reference it becomes extremely difficult to establish probability of behavior.
+Our theorem exposes that limitation. Every subsequent procedure using only indistinguishable information inherits this failure; establishing a gravitational wave requires evidence that separates alternatives.
+We did not invent the cancellation of shared error. It's built into Ligo's comparison operation itself. Our formalization exposes that limitation and proves its persistence.
 
-Consider two models that share a systematic error. Subtracting their outputs cancels that error exactly. The cancellation is already present in the comparison operation. It follows that inter-model agreement alone cannot bound an unrestricted shared error, and further processing of those comparisons cannot supply the missing bound. The proofs exhibit the indistinguishable states and specify which additional observations recover the target.
+Any claim that LIGO’s model agreement alone establishes a bound on shared systematic error is mathematically unjustified. Further processing of those comparisons cannot supply the missing information. That failure belongs to the inference being claimed. 
+Here taken on its own, we establish a rigorous impossibility result. An explicit pair of indistinguishable states rules out every uniformly correct recovery map for a target that distinguishes those states. The obstruction survives subsequent processing, we offer a resolution, a reference anchor that gives the precise, necessary and sufficient condition of resolution.
 
 ## Formally Proven Mathematical Invalidations
 
