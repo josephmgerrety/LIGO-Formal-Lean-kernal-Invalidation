@@ -1,0 +1,15 @@
+name = "ligo_verification"
+version = "1.0.0"
+defaultTargets = ["VerificationAll"]
+
+[[lean_lib]]
+name = "PerfectAssociation"
+
+[[lean_lib]]
+name = "RequestProject"
+
+[[lean_lib]]
+name = "VerificationAll"
+
+[[lean_lib]]
+name = "VerificationCorrections"
