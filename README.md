@@ -1,7 +1,7 @@
 # LIGO — Formal Lean Kernel Invalidation
 
-**Joseph M. Gerrety**
-*Measure, Common Error, and Information Recovery* · 23 November 2026
+**Joseph M. Gerrety** 
+*Measure, Error, and Information* · 23 November 2026
 
 DISCRIPTION:
 
