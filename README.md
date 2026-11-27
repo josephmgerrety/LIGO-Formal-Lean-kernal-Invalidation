@@ -3,7 +3,7 @@
 **Joseph M. Gerrety** 
 *Measure, Error, and Information* · 23 November 2026
 
-DISCRIPTION:
+DESCRIPTION:
 
 When a gravitational wave explanation and a no-gravitational wave explanation yield identical predictions and identical likelihoods for every possible dataset, LIGO cannot use those data alone to establish that a gravitational wave occurred.
 Calibration and probability are based upon a condition of a reference of a previous verifiable known event. The event itself and importantly the behavior of related elements surrounding can then offer attunement of what's more likely to happen the next time. Without this transitive reference it becomes extremely difficult to establish probability of behavior.
